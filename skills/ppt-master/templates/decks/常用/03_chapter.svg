@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Full-page background -->
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+
+  <!-- Top-left chrome -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+
+  <!-- 6 parallelograms: active chapter is highlighted in blue; others remain grey -->
+  <!-- NOTE: Executor selects which parallelogram to fill #0B88FF based on {{CHAPTER_NUM}}. -->
+  <!-- Default template shows chapter 01 active. -->
+
+  <!-- Item 1 — ACTIVE (blue fill, white text) -->
+  <polygon points="85,249 260,249 230,471 55,471" fill="#0B88FF" stroke="none"/>
+  <text x="147" y="307" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#FFFFFF" font-weight="bold" font-style="italic">{{CHAPTER_NUM}}</text>
+  <text x="157" y="374" text-anchor="middle" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_TITLE}}</text>
+
+  <!-- Items 2–6: inactive (grey) -->
+  <polygon points="275,249 450,249 420,471 245,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <polygon points="465,249 640,249 610,471 435,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <polygon points="655,249 830,249 800,471 625,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <polygon points="845,249 1020,249 990,471 815,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <polygon points="1035,249 1210,249 1180,471 1005,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+
+  <!-- Bottom-right: chapter label -->
+  <text x="1150" y="638" text-anchor="start" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_TITLE}}</text>
+  <text x="1020" y="685" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{CHAPTER_EN}}</text>
+
+  <!-- Bottom-left chrome -->
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <text x="67" y="628" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+  <text x="67" y="647" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <image href="bg_tiled.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{SECTION_TITLE}}</text>
+  <image href="brand_logo.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">THESIS</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">DEFENSE.</text>
+  <line x1="964" y1="631" x2="1121" y2="631" stroke-width="2.667" stroke="#0B88FF"/>
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAP_LABEL_BLUE}}</text>
+  <text x="833" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{CHAP_LABEL_EN}}</text>
+  <!-- Left narrative column -->
+  <g id="left-column">
+    <!-- Blue left-edge vertical accent bar -->
+    <rect x="68" y="130" width="6" height="460" fill="#0B88FF"/>
+    <!-- Title above body -->
+    <text x="400" y="170" text-anchor="end" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="32" fill="#000000" font-weight="bold">{{LEFT_TITLE}}</text>
+    <!-- Subtitle in blue -->
+    <text x="400" y="215" text-anchor="end" font-family="&quot;Tw Cen MT Condensed&quot;,sans-serif" font-size="32" fill="#0B88FF" font-weight="bold">{{LEFT_SUBTITLE}}</text>
+    <!-- Body text -->
+    <rect x="84" y="235" width="316" height="335" fill="none"/>
+    <text x="394" y="265" text-anchor="end" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#000000">{{LEFT_BODY}}</text>
+  </g>
+  <!-- Right image/figure placeholder -->
+  <g id="right-figure">
+    <rect x="420" y="130" width="820" height="460" fill="none" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="6 4"/>
+    <text x="830" y="365" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#BFBFBF">{{IMAGE_PLACEHOLDER}}</text>
+    <text x="830" y="395" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="20" fill="#BFBFBF">FIGURE / CHART</text>
+  </g>
+</svg>

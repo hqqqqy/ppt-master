@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Full-page background -->
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+
+  <!-- Top-left chrome -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+
+  <!-- TOC title top-left -->
+  <text x="73" y="96" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold">论文整体框架</text>
+
+  <!-- 6 parallelogram TOC items -->
+  <!-- Item 1 -->
+  <polygon points="85,249 260,249 230,471 55,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <text x="147" y="307" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">01</text>
+  <text x="157" y="374" text-anchor="middle" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{TOC_ITEM_1_TITLE}}</text>
+  <text x="157" y="428" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="24" fill="#BFBFBF" font-style="italic">{{TOC_ITEM_1_DESC}}</text>
+
+  <!-- Item 2 -->
+  <polygon points="275,249 450,249 420,471 245,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <text x="337" y="307" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">02</text>
+  <text x="347" y="374" text-anchor="middle" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{TOC_ITEM_2_TITLE}}</text>
+  <text x="337" y="428" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="24" fill="#BFBFBF" font-style="italic">{{TOC_ITEM_2_DESC}}</text>
+
+  <!-- Item 3 -->
+  <polygon points="465,249 640,249 610,471 435,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <text x="527" y="307" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">03</text>
+  <text x="537" y="374" text-anchor="middle" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{TOC_ITEM_3_TITLE}}</text>
+  <text x="527" y="428" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="24" fill="#BFBFBF" font-style="italic">{{TOC_ITEM_3_DESC}}</text>
+
+  <!-- Item 4 -->
+  <polygon points="655,249 830,249 800,471 625,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <text x="717" y="307" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">04</text>
+  <text x="727" y="374" text-anchor="middle" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{TOC_ITEM_4_TITLE}}</text>
+  <text x="717" y="428" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="24" fill="#BFBFBF" font-style="italic">{{TOC_ITEM_4_DESC}}</text>
+
+  <!-- Item 5 -->
+  <polygon points="845,249 1020,249 990,471 815,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <text x="907" y="307" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">05</text>
+  <text x="917" y="374" text-anchor="middle" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{TOC_ITEM_5_TITLE}}</text>
+  <text x="907" y="428" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="24" fill="#BFBFBF" font-style="italic">{{TOC_ITEM_5_DESC}}</text>
+
+  <!-- Item 6 -->
+  <polygon points="1035,249 1210,249 1180,471 1005,471" fill="#F2F2F2" fill-opacity="0.8" stroke="none"/>
+  <text x="1097" y="307" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">06</text>
+  <text x="1110" y="374" text-anchor="middle" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{TOC_ITEM_6_TITLE}}</text>
+  <text x="1097" y="428" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="24" fill="#BFBFBF" font-style="italic">{{TOC_ITEM_6_DESC}}</text>
+
+  <!-- Bottom-right: TOC label -->
+  <text x="1150" y="638" text-anchor="start" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">目录</text>
+  <text x="1020" y="685" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">CONTENTS</text>
+
+  <!-- Bottom-left chrome -->
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <text x="67" y="628" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+  <text x="67" y="647" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <image href="bg_tiled.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <!-- Top chrome -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{SECTION_TITLE}}</text>
+  <image href="brand_logo.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <!-- Bottom chrome -->
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">THESIS</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">DEFENSE.</text>
+  <line x1="964" y1="631" x2="1121" y2="631" stroke-width="2.667" stroke="#0B88FF"/>
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAP_LABEL_BLUE}}</text>
+  <text x="833" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{CHAP_LABEL_EN}}</text>
+  <!-- Left card (double-stroke style) -->
+  <g id="left-card">
+    <!-- Outer offset border -->
+    <rect x="68" y="135" width="527" height="456" fill="none" stroke="#CEE7FF" stroke-width="2.667"/>
+    <!-- Inner border -->
+    <rect x="74" y="141" width="527" height="456" fill="none" stroke="#0B88FF" stroke-width="2.667"/>
+    <!-- Blue bottom bar accent -->
+    <rect x="152" y="570" width="350" height="15" rx="7.5" ry="7.5" fill="#0B88FF"/>
+    <!-- Card title -->
+    <text x="338" y="178" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="32" fill="#000000" font-weight="bold">{{CARD_LEFT_TITLE}}</text>
+    <!-- Card body -->
+    <rect x="118" y="195" width="463" height="360" fill="none"/>
+    <text x="327" y="225" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#000000">{{CARD_LEFT_BODY}}</text>
+  </g>
+  <!-- Right card (double-stroke style) -->
+  <g id="right-card">
+    <rect x="700" y="135" width="527" height="456" fill="none" stroke="#CEE7FF" stroke-width="2.667"/>
+    <rect x="706" y="141" width="527" height="456" fill="none" stroke="#0B88FF" stroke-width="2.667"/>
+    <!-- Black bottom bar accent -->
+    <rect x="784" y="570" width="350" height="15" rx="7.5" ry="7.5" fill="#000000"/>
+    <!-- Card title -->
+    <text x="970" y="178" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="32" fill="#000000" font-weight="bold">{{CARD_RIGHT_TITLE}}</text>
+    <!-- Card body -->
+    <rect x="746" y="195" width="463" height="360" fill="none"/>
+    <text x="960" y="225" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#000000">{{CARD_RIGHT_BODY}}</text>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <image href="bg_tiled.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{SECTION_TITLE}}</text>
+  <image href="brand_logo.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">THESIS</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">DEFENSE.</text>
+  <line x1="964" y1="631" x2="1121" y2="631" stroke-width="2.667" stroke="#0B88FF"/>
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAP_LABEL_BLUE}}</text>
+  <text x="833" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{CHAP_LABEL_EN}}</text>
+  <!-- 5-step horizontal process flow -->
+  <!-- Step connecting line -->
+  <line x1="140" y1="310" x2="1140" y2="310" stroke="#BFBFBF" stroke-width="2"/>
+  <!-- Step 1 -->
+  <g id="step1">
+    <circle cx="140" cy="310" r="40" fill="#0B88FF"/>
+    <text x="140" y="320" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">01</text>
+    <text x="140" y="180" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="24" fill="#000000" font-weight="bold">{{STEP1_TITLE}}</text>
+    <rect x="68" y="195" width="144" height="100" fill="none"/>
+    <text x="140" y="215" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#000000">{{STEP1_BODY}}</text>
+    <text x="140" y="410" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#BFBFBF">{{STEP1_NOTE}}</text>
+  </g>
+  <!-- Step 2 -->
+  <g id="step2">
+    <circle cx="390" cy="310" r="40" fill="#0B88FF" fill-opacity="0.8"/>
+    <text x="390" y="320" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">02</text>
+    <text x="390" y="180" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="24" fill="#000000" font-weight="bold">{{STEP2_TITLE}}</text>
+    <rect x="318" y="195" width="144" height="100" fill="none"/>
+    <text x="390" y="215" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#000000">{{STEP2_BODY}}</text>
+    <text x="390" y="410" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#BFBFBF">{{STEP2_NOTE}}</text>
+  </g>
+  <!-- Step 3 -->
+  <g id="step3">
+    <circle cx="640" cy="310" r="40" fill="#0B88FF" fill-opacity="0.6"/>
+    <text x="640" y="320" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">03</text>
+    <text x="640" y="180" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="24" fill="#000000" font-weight="bold">{{STEP3_TITLE}}</text>
+    <rect x="568" y="195" width="144" height="100" fill="none"/>
+    <text x="640" y="215" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#000000">{{STEP3_BODY}}</text>
+    <text x="640" y="410" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#BFBFBF">{{STEP3_NOTE}}</text>
+  </g>
+  <!-- Step 4 -->
+  <g id="step4">
+    <circle cx="890" cy="310" r="40" fill="#0B88FF" fill-opacity="0.4"/>
+    <text x="890" y="320" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">04</text>
+    <text x="890" y="180" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="24" fill="#000000" font-weight="bold">{{STEP4_TITLE}}</text>
+    <rect x="818" y="195" width="144" height="100" fill="none"/>
+    <text x="890" y="215" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#000000">{{STEP4_BODY}}</text>
+    <text x="890" y="410" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#BFBFBF">{{STEP4_NOTE}}</text>
+  </g>
+  <!-- Step 5 -->
+  <g id="step5">
+    <circle cx="1140" cy="310" r="40" fill="#0B88FF" fill-opacity="0.25"/>
+    <text x="1140" y="320" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,sans-serif" font-size="32" fill="#0B88FF" font-weight="bold">05</text>
+    <text x="1140" y="180" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="24" fill="#000000" font-weight="bold">{{STEP5_TITLE}}</text>
+    <rect x="1068" y="195" width="144" height="100" fill="none"/>
+    <text x="1140" y="215" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#000000">{{STEP5_BODY}}</text>
+    <text x="1140" y="410" text-anchor="middle" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="20" fill="#BFBFBF">{{STEP5_NOTE}}</text>
+  </g>
+  <!-- Content notes area -->
+  <rect x="68" y="455" width="1150" height="140" fill="none"/>
+  <text x="78" y="485" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="26.67" fill="#000000">{{CONTENT_AREA}}</text>
+</svg>

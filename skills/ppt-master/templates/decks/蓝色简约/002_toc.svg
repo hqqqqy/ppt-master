@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Background -->
+  <image href="bg_tiled.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+
+  <!-- Page chrome: top-left thick blue line -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+  <!-- Page title header -->
+  <g id="page-header">
+    <rect x="63" y="68" width="182" height="42" fill="none"/>
+    <text x="73" y="96" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{PAGE_TITLE}}</text>
+  </g>
+  <!-- Top-right logo -->
+  <image href="brand_logo.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+
+  <!-- Bottom chrome -->
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+  <g id="bottom-left-brand">
+    <text x="67" y="628" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">THESIS</text>
+    <text x="67" y="647" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">DEFENSE.</text>
+  </g>
+  <!-- Bottom-right: chapter indicator -->
+  <g id="bottom-right-indicator">
+    <text x="1218" y="638" text-anchor="end" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">目</text>
+    <text x="1218" y="638" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">&#x00A0;录</text>
+  </g>
+  <line x1="965" y1="631" x2="1121" y2="631" stroke-width="2.667" stroke="#0B88FF" fill="#0B88FF"/>
+  <text x="1021" y="685" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">CONTENTS</text>
+
+  <!-- 6 parallelogram TOC items — slot 1 active (blue), slots 2-6 gray -->
+  <!-- Slot 1 (active) -->
+  <polygon points="85,249 260,249 230,471 55,471" fill="#0B88FF" fill-opacity="0.9"/>
+  <text x="146" y="307" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#FFFFFF" font-weight="bold" font-style="italic">{{NUM_01}}</text>
+  <text x="158" y="374" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_01}}</text>
+  <text x="78" y="428" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="22" fill="#FFFFFF" font-style="italic">{{CHAPTER_01_EN}}</text>
+
+  <!-- Slot 2 -->
+  <polygon points="275,249 450,249 420,471 245,471" fill="#F2F2F2" fill-opacity="0.8"/>
+  <text x="321" y="307" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">{{NUM_02}}</text>
+  <text x="348" y="374" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_02}}</text>
+  <text x="253" y="428" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="22" fill="#BFBFBF" font-style="italic">{{CHAPTER_02_EN}}</text>
+
+  <!-- Slot 3 -->
+  <polygon points="465,249 640,249 610,471 435,471" fill="#F2F2F2" fill-opacity="0.8"/>
+  <text x="511" y="307" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">{{NUM_03}}</text>
+  <text x="535" y="374" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_03}}</text>
+  <text x="436" y="428" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="22" fill="#BFBFBF" font-style="italic">{{CHAPTER_03_EN}}</text>
+
+  <!-- Slot 4 -->
+  <polygon points="655,249 830,249 800,471 625,471" fill="#F2F2F2" fill-opacity="0.8"/>
+  <text x="696" y="307" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">{{NUM_04}}</text>
+  <text x="727" y="374" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_04}}</text>
+  <text x="626" y="428" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="22" fill="#BFBFBF" font-style="italic">{{CHAPTER_04_EN}}</text>
+
+  <!-- Slot 5 -->
+  <polygon points="845,249 1020,249 990,471 815,471" fill="#F2F2F2" fill-opacity="0.8"/>
+  <text x="886" y="307" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">{{NUM_05}}</text>
+  <text x="918" y="374" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_05}}</text>
+  <text x="816" y="428" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="22" fill="#BFBFBF" font-style="italic">{{CHAPTER_05_EN}}</text>
+
+  <!-- Slot 6 -->
+  <polygon points="1035,249 1210,249 1179,471 1004,471" fill="#F2F2F2" fill-opacity="0.8"/>
+  <text x="1079" y="307" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#BFBFBF" font-weight="bold" font-style="italic">{{NUM_06}}</text>
+  <text x="1110" y="374" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#000000" font-weight="bold" font-style="italic" letter-spacing="2.67">{{CHAPTER_06}}</text>
+  <text x="1005" y="428" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="22" fill="#BFBFBF" font-style="italic">{{CHAPTER_06_EN}}</text>
+</svg>

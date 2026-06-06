@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <!-- SHARED CHROME -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+  <!-- Section header -->
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{PAGE_TITLE}}</text>
+  <!-- Section footer -->
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{SECTION_NAME}}</text>
+  <line x1="964" y1="631" x2="1120" y2="631" stroke-width="2.667" stroke="#0B88FF" fill="none"/>
+  <text x="841" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{SECTION_EN}}</text>
+
+  <!-- Lead-in text -->
+  <rect x="68" y="130" width="1150" height="75" fill="none"/>
+  <text x="78" y="158" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{LEAD_IN_TEXT}}</text>
+
+  <!-- Dashed separators: horizontal + 2 verticals -->
+  <line x1="68" y1="222" x2="1203" y2="222" stroke-width="1.333" stroke="#D9D9D9" stroke-dasharray="4 4" fill="none"/>
+  <line x1="428" y1="222" x2="428" y2="460" stroke-width="1.333" stroke="#D9D9D9" stroke-dasharray="4 4" fill="none"/>
+  <line x1="852" y1="222" x2="852" y2="460" stroke-width="1.333" stroke="#D9D9D9" stroke-dasharray="4 4" fill="none"/>
+
+  <!-- 3-column bullet content areas -->
+  <rect x="68" y="249" width="340" height="220" fill="none"/>
+  <text x="78" y="277" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{COL1_CONTENT}}</text>
+
+  <rect x="458" y="249" width="370" height="220" fill="none"/>
+  <text x="468" y="277" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{COL2_CONTENT}}</text>
+
+  <rect x="862" y="249" width="350" height="220" fill="none"/>
+  <text x="872" y="277" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{COL3_CONTENT}}</text>
+
+  <!-- 3 parallelogram category buttons at bottom -->
+  <!-- Button 1 (blue = active) -->
+  <polygon points="68,501 290,501 267,563 45,563" fill="#0B88FF" stroke="none"/>
+  <text x="167" y="540" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{BTN1_LABEL}}</text>
+
+  <!-- Button 2 -->
+  <polygon points="492,501 714,501 690,563 468,563" fill="#0B88FF" stroke="none"/>
+  <text x="591" y="540" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{BTN2_LABEL}}</text>
+
+  <!-- Button 3 -->
+  <polygon points="916,501 1138,501 1115,563 893,563" fill="#0B88FF" stroke="none"/>
+  <text x="1015" y="540" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{BTN3_LABEL}}</text>
+
+  <!-- Content area placeholder -->
+  <text x="640" y="400" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#BFBFBF">{{CONTENT_AREA}}</text>
+</svg>

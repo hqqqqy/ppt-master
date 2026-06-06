@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <image href="bg_tiled.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <!-- Top chrome -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="67" y="84" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">THESIS</text>
+  <text x="67" y="103" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">DEFENSE.</text>
+  <!-- Bottom chrome -->
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">THESIS</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">DEFENSE.</text>
+  <image href="brand_logo.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <!-- Date block bottom-right -->
+  <text x="1093" y="672" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="18.67" fill="#000000" font-weight="bold">{{DATE_LABEL}}</text>
+  <text x="1143" y="667" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="64" fill="#000000" font-weight="bold">{{DATE_VALUE}}</text>
+  <!-- Ghost English THANKS watermark -->
+  <text x="206" y="380" text-anchor="start" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;,&quot;微软雅黑&quot;,sans-serif" font-size="221" fill="#F2F2F2" fill-opacity="0.85" font-weight="bold">THANKS</text>
+  <!-- Main closing message -->
+  <text x="206" y="419" text-anchor="start" font-family="&quot;微软雅黑&quot;,sans-serif" font-size="64" fill="#000000">{{CLOSING_MESSAGE}}</text>
+</svg>

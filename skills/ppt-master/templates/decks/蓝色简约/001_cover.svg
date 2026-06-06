@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Background texture -->
+  <image href="bg_tiled.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+
+  <!-- Top-left chrome: thick blue accent line -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+
+  <!-- Top-left brand text (placeholder) -->
+  <g id="brand-text">
+    <rect x="57" y="63" width="170" height="56" fill="none"/>
+    <text x="67" y="84" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">{{BRAND_LINE1}}</text>
+    <text x="67" y="103" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">{{BRAND_LINE2}}</text>
+  </g>
+
+  <!-- Bottom-left chrome: decorative lines -->
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+  <g id="bottom-left-brand">
+    <rect x="57" y="608" width="140" height="56" fill="none"/>
+    <text x="67" y="628" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">THESIS</text>
+    <text x="67" y="647" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">DEFENSE.</text>
+  </g>
+
+  <!-- Top-right brand logo -->
+  <image href="brand_logo.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+
+  <!-- Date bottom-right -->
+  <g id="date-block">
+    <rect x="1083" y="652" width="71" height="32" fill="none"/>
+    <text x="1093" y="672" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">{{DATE_LABEL}}</text>
+  </g>
+  <g id="date-value">
+    <rect x="1133" y="608" width="99" height="87" fill="none"/>
+    <text x="1143" y="667" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="64" fill="#000000" font-weight="bold">{{DATE_VALUE}}</text>
+  </g>
+
+  <!-- Central content group -->
+  <g id="cover-content">
+    <!-- Ghost EN watermark title -->
+    <rect x="197" y="233" width="887" height="139" fill="none"/>
+    <text x="1074" y="328" text-anchor="end" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="106.67" fill="#F2F2F2" font-weight="bold">{{TITLE_EN_WATERMARK}}</text>
+
+    <!-- Main Chinese title -->
+    <rect x="197" y="312" width="800" height="74" fill="none"/>
+    <text x="207" y="362" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="53.33" fill="#000000">{{MAIN_TITLE}}</text>
+  </g>
+
+  <!-- Info bar -->
+  <g id="info-bar">
+    <!-- Presenter -->
+    <rect x="146" y="499" width="224" height="39" fill="none"/>
+    <text x="156" y="524" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="24" fill="#000000" font-weight="bold">{{PRESENTER}}</text>
+    <!-- Institution -->
+    <rect x="510" y="499" width="224" height="39" fill="none"/>
+    <text x="623" y="524" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="24" fill="#000000" font-weight="bold">{{INSTITUTION}}</text>
+    <!-- Advisor -->
+    <rect x="867" y="499" width="224" height="39" fill="none"/>
+    <text x="1082" y="524" text-anchor="end" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="24" fill="#000000" font-weight="bold">{{ADVISOR}}</text>
+  </g>
+</svg>

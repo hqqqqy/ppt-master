@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrow1" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D9D9D9"/>
+    </marker>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D9D9D9"/>
+    </marker>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D9D9D9"/>
+    </marker>
+  </defs>
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <!-- SHARED CHROME -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{PAGE_TITLE}}</text>
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{SECTION_NAME}}</text>
+  <line x1="964" y1="631" x2="1120" y2="631" stroke-width="2.667" stroke="#0B88FF" fill="none"/>
+  <text x="841" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{SECTION_EN}}</text>
+
+  <!-- 3 stacked "3D notebook" conclusion items on the left -->
+  <!-- Item 1 (top) -->
+  <path d="M 123 135 L 345 135 L 341 173 L 340 173 L 344 137 L 124 137 L 112 272 L 331 272 L 335 236 L 336 236 L 332 274 L 110 274 L 123 135 Z" fill="#E7E6E6" stroke="none"/>
+  <polygon points="139,142 334,142 316,267 121,267" fill="none" stroke-width="2" stroke="#D9D9D9"/>
+  <polygon points="338,169 345,169 344,174 337,174" fill="#0B88FF" stroke="none"/>
+  <polygon points="332,233 339,233 338,237 331,237" fill="#0B88FF" stroke="none"/>
+  <text x="160" y="183" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="32" fill="#000000">{{ITEM1_TITLE}}</text>
+  <text x="232" y="222" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="24" fill="#000000">{{ITEM1_BRIEF}}</text>
+
+  <!-- Item 2 (middle) -->
+  <path d="M 123 298 L 345 298 L 341 336 L 340 336 L 344 300 L 124 300 L 112 436 L 331 436 L 335 399 L 336 399 L 332 437 L 110 437 L 123 298 Z" fill="#E7E6E6" stroke="none"/>
+  <polygon points="139,305 334,305 316,430 121,430" fill="none" stroke-width="2" stroke="#D9D9D9"/>
+  <polygon points="338,332 345,332 344,337 337,337" fill="#0B88FF" stroke="none"/>
+  <polygon points="332,396 339,396 338,400 331,400" fill="#0B88FF" stroke="none"/>
+  <text x="160" y="347" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="32" fill="#000000">{{ITEM2_TITLE}}</text>
+  <text x="232" y="387" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="24" fill="#000000">{{ITEM2_BRIEF}}</text>
+
+  <!-- Item 3 (bottom) -->
+  <path d="M 123 460 L 345 460 L 341 499 L 340 499 L 344 462 L 124 462 L 112 598 L 331 598 L 335 561 L 336 561 L 332 599 L 110 599 L 123 460 Z" fill="#E7E6E6" stroke="none"/>
+  <polygon points="139,467 334,467 316,592 121,592" fill="none" stroke-width="2" stroke="#D9D9D9"/>
+  <polygon points="338,495 345,495 344,499 337,499" fill="#0B88FF" stroke="none"/>
+  <polygon points="332,558 339,558 338,563 331,563" fill="#0B88FF" stroke="none"/>
+  <text x="160" y="510" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="32" fill="#000000">{{ITEM3_TITLE}}</text>
+  <text x="232" y="549" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="24" fill="#000000">{{ITEM3_BRIEF}}</text>
+
+  <!-- Arrow connectors (left → right) -->
+  <line x1="369" y1="204" x2="469" y2="204" stroke="#D9D9D9" marker-end="url(#arrow1)" stroke-width="1"/>
+  <line x1="369" y1="366" x2="469" y2="366" stroke="#D9D9D9" marker-end="url(#arrow2)" stroke-width="1"/>
+  <line x1="369" y1="528" x2="469" y2="528" stroke="#D9D9D9" marker-end="url(#arrow3)" stroke-width="1"/>
+
+  <!-- Right column: 3 detail text blocks -->
+  <rect x="491" y="156" width="728" height="97" fill="none"/>
+  <text x="501" y="181" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="24" fill="#000000">{{ITEM1_CONTENT}}</text>
+
+  <rect x="491" y="318" width="728" height="97" fill="none"/>
+  <text x="501" y="343" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="24" fill="#000000">{{ITEM2_CONTENT}}</text>
+
+  <rect x="491" y="480" width="728" height="97" fill="none"/>
+  <text x="501" y="505" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="24" fill="#000000">{{ITEM3_CONTENT}}</text>
+
+  <!-- Content area placeholder -->
+  <text x="860" y="430" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#BFBFBF">{{CONTENT_AREA}}</text>
+</svg>

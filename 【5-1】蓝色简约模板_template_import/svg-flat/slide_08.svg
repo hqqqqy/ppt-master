@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="2.83" dy="2.83" stdDeviation="3.33" flood-color="#000000" flood-opacity="0.3"/></filter><filter id="fx2" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="2.83" dy="2.83" stdDeviation="3.33" flood-color="#000000" flood-opacity="0.3"/></filter></defs><image href="../assets/image1.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+<g id="shape-13" data-name="组合 12">
+<g id="shape-2" data-name="文本框 1">
+<rect x="61.67" y="65.26" width="56.41" height="45.24" fill="none"/>
+<text x="71.27" y="95" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="29.33" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="29.33" font-weight="bold">2.2</tspan></text>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="110.3" y="68.49" width="181.96" height="42.01" fill="none"/>
+<text x="119.9" y="95.96" text-anchor="start" xml:space="preserve" font-family="&quot;碳纤维正中黑简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="26.67" font-weight="bold">国外研究现状</tspan></text>
+</g>
+</g>
+<g id="shape-4" data-name="文本框 3">
+<rect x="1079.79" y="610.14" width="138.54" height="42.01" fill="none"/>
+<text x="1089.39" y="637.6" text-anchor="start" xml:space="preserve" font-family="&quot;碳纤维正中黑简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67"><tspan fill="#0B88FF" font-size="26.67" font-weight="bold" font-style="italic" letter-spacing="2.67">文献</tspan><tspan fill="#000000" font-size="26.67" font-weight="bold" font-style="italic" letter-spacing="2.67">综述</tspan></text>
+</g>
+<g id="shape-6" data-name="图片 5">
+<image href="../assets/image4.jpeg" x="1340.95" y="0" width="664.62" height="720" preserveAspectRatio="none"/>
+</g>
+<g id="shape-8" data-name="直接连接符 7" transform="translate(1001.65 631.14) scale(-1 1) translate(-1001.65 -631.14)">
+<line x1="923.5" y1="631.14" x2="1079.79" y2="631.14" stroke-width="2.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-10" data-name="文本框 9">
+<rect x="832.11" y="639.22" width="386.22" height="67.86" fill="none"/>
+<text x="841.71" y="684.82" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic"><tspan fill="#F2F2F2" font-size="48" font-style="italic">LITERATURE REVIEW</tspan></text>
+</g>
+<g id="shape-11" data-name="矩形 10">
+<image href="../assets/image2.png" x="1149.13" y="46.33" width="69.2" height="69.2" preserveAspectRatio="none"/>
+<rect x="1149.13" y="46.33" width="69.2" height="69.2" fill="none" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-12" data-name="直接连接符 11">
+<line x1="68.12" y1="51.51" x2="127.55" y2="51.51" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-14" data-name="文本框 13">
+<rect x="57" y="607.56" width="138.71" height="54.93" fill="none"/>
+<text x="66.6" y="628.22" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, +mn-cs, sans-serif" font-size="18.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="18.67" font-weight="bold">CASE STUDY</tspan></text>
+<text x="66.6" y="646.89" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, +mn-cs, sans-serif" font-size="18.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="18.67" font-weight="bold">RESEARCH.</tspan></text>
+</g>
+<g id="shape-15" data-name="直接连接符 14">
+<line x1="68.12" y1="671.06" x2="127.55" y2="671.06" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-18" data-name="组合 17">
+<g id="shape-5" data-name="矩形: 圆角 4">
+<rect x="68.12" y="135.42" width="517.92" height="455.63" rx="13.28" ry="13.28" fill="#FFFFFF" stroke-width="0.333" stroke="none"/>
+</g>
+<g id="shape-7" data-name="矩形: 圆角 6">
+<rect x="151.91" y="569.56" width="350.34" height="15.02" rx="7.51" ry="7.51" stroke="none" fill="#0B88FF" stroke-width="1"/>
+</g>
+<g id="shape-9" data-name="矩形: 圆角 8">
+<rect x="76.37" y="143.1" width="501.43" height="440.27" rx="11.03" ry="11.03" fill="none" stroke="#D9D9D9" stroke-width="1" filter="url(#fx1)"/>
+</g>
+</g>
+<g id="shape-19" data-name="组合 18">
+<g id="shape-20" data-name="矩形: 圆角 19">
+<rect x="700.41" y="135.42" width="517.92" height="455.63" rx="13.28" ry="13.28" fill="#FFFFFF" stroke-width="0.333" stroke="none"/>
+</g>
+<g id="shape-21" data-name="矩形: 圆角 20">
+<rect x="784.2" y="569.56" width="350.34" height="15.02" rx="7.51" ry="7.51" fill="#000000" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-22" data-name="矩形: 圆角 21">
+<rect x="708.66" y="143.1" width="501.43" height="440.27" rx="11.03" ry="11.03" fill="none" stroke="#D9D9D9" stroke-width="1" filter="url(#fx2)"/>
+</g>
+</g>
+<g id="shape-23" data-name="文本框 22">
+<rect x="250.99" y="233.14" width="152.17" height="48.47" fill="none"/>
+<text x="260.59" y="265.14" text-anchor="start" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">Text Here</tspan></text>
+</g>
+<g id="shape-24" data-name="文本框 23">
+<rect x="883.29" y="233.14" width="152.17" height="48.47" fill="none"/>
+<text x="892.89" y="265.14" text-anchor="start" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">Text Here</tspan></text>
+</g>
+<g id="shape-25" data-name="iconfont-1016-791883">
+<path d="M 350.51 200.53 C 350.51 203.73 347.85 206.39 344.66 206.39 C 341.46 206.39 338.8 203.73 338.8 200.53 L 338.8 200.53 L 338.8 200.53 L 338.8 200.53 C 338.8 203.73 336.13 206.39 332.94 206.39 C 329.74 206.39 327.08 203.73 327.08 200.53 L 327.08 200.53 L 327.08 200.53 L 327.08 200.53 L 327.08 200.53 C 327.08 203.73 324.42 206.39 321.22 206.39 C 318.03 206.39 315.36 203.73 315.36 200.53 L 315.36 200.53 L 315.36 200.53 L 315.36 200.53 L 315.36 200.53 C 315.36 203.73 312.7 206.39 309.5 206.39 C 306.31 206.39 303.65 203.73 303.65 200.53 L 303.65 200.53 L 303.65 200.53 L 303.65 200.53 L 307.8 189.45 L 346.47 189.45 L 350.51 200.53 L 350.51 200.53 Z M 343.16 187.22 L 310.99 187.22 C 309.82 187.22 308.76 186.26 308.76 184.98 C 308.76 183.81 309.72 182.85 310.99 182.85 L 343.16 182.85 C 344.34 182.85 345.4 183.81 345.4 185.09 C 345.4 186.26 344.44 187.22 343.16 187.22 Z M 310.25 208.52 L 310.25 208.52 C 310.46 208.52 310.68 208.52 310.89 208.42 L 310.99 208.42 C 311.1 208.42 311.21 208.42 311.31 208.31 C 311.74 208.2 312.06 208.1 312.49 207.99 L 312.49 207.99 L 312.49 207.99 L 312.49 218.86 L 341.78 218.86 L 341.78 207.99 L 341.78 207.99 L 341.78 207.99 C 342.21 208.1 342.52 208.2 342.95 208.31 C 343.06 208.31 343.16 208.31 343.27 208.42 L 343.38 208.42 C 343.59 208.42 343.8 208.52 344.02 208.52 L 344.02 208.52 L 344.76 208.52 C 345.29 208.52 345.72 208.52 346.25 208.42 L 346.25 223.22 C 346.25 224.4 345.29 225.46 344.02 225.46 L 310.25 225.46 C 309.08 225.46 308.01 224.5 308.01 223.22 L 308.01 208.42 C 308.44 208.52 308.97 208.52 309.5 208.52 L 310.25 208.52 Z M 310.25 208.52 Z" fill="#0B88FF" stroke="none"/>
+</g>
+<g id="shape-26" data-name="iconfont-1027-797105">
+<path d="M 982.81 188.88 C 982.81 187.81 982.42 186.88 981.66 186.12 C 980.91 185.36 979.98 184.97 978.9 184.97 L 939.85 184.97 C 938.77 184.97 937.84 185.36 937.09 186.12 C 936.33 186.88 935.94 187.81 935.94 188.88 L 935.94 218.57 C 935.94 219.64 936.33 220.57 937.09 221.33 C 937.84 222.08 938.77 222.48 939.85 222.48 L 978.9 222.48 C 979.98 222.48 980.91 222.08 981.66 221.33 C 982.42 220.57 982.81 219.64 982.81 218.57 L 982.81 188.88 Z M 940.37 202.61 L 942.55 202.61 C 943.13 202.61 943.6 202.56 943.96 202.46 C 944.32 202.35 944.66 202.15 945.01 201.86 L 945.64 201.23 C 945.91 200.96 946.18 200.66 946.47 200.32 C 946.76 199.97 947.06 199.62 947.37 199.27 C 947.67 198.91 947.96 198.58 948.22 198.26 C 948.74 197.6 949.22 197.34 949.64 197.48 C 950.07 197.63 950.38 197.94 950.6 198.42 L 952.34 203.21 C 953.24 200.7 954.03 198.43 954.71 196.4 C 955 195.52 955.3 194.67 955.59 193.84 C 955.88 193 956.14 192.24 956.38 191.54 C 956.62 190.84 956.81 190.26 956.97 189.8 C 957.13 189.34 957.22 189.04 957.25 188.91 C 957.38 188.46 957.58 188.09 957.84 187.82 C 958.11 187.54 958.4 187.4 958.71 187.4 C 959.06 187.4 959.41 187.5 959.78 187.7 C 960.15 187.9 960.39 188.3 960.5 188.91 C 960.53 189.07 960.58 189.49 960.66 190.18 C 960.74 190.86 960.84 191.72 960.97 192.75 C 961.11 193.78 961.24 194.92 961.39 196.18 C 961.53 197.43 961.69 198.71 961.85 200 C 962.19 203.04 962.58 206.43 963.03 210.18 C 963.62 208.28 964.14 206.55 964.62 204.99 C 964.8 204.33 964.99 203.68 965.19 203.03 C 965.39 202.38 965.58 201.79 965.75 201.25 C 965.92 200.71 966.06 200.25 966.16 199.88 C 966.27 199.51 966.35 199.27 966.4 199.17 C 966.53 198.75 966.69 198.43 966.88 198.22 C 967.06 198 967.31 197.86 967.63 197.78 C 968.24 197.62 968.69 197.71 968.99 198.04 C 969.3 198.37 969.45 198.71 969.45 199.05 C 969.45 199.34 969.43 199.59 969.37 199.8 C 969.35 199.91 969.33 200 969.33 200.08 L 970.76 203.96 C 970.79 203.94 970.82 203.88 970.88 203.8 C 970.96 203.67 971.09 203.39 971.27 202.97 C 971.49 202.52 971.84 202.22 972.32 202.08 C 972.81 201.93 973.28 201.87 973.73 201.9 C 974.02 201.93 974.31 201.94 974.6 201.94 L 975.47 201.94 L 976.42 201.94 L 976.42 204.95 C 976.26 204.98 976.11 204.99 975.95 204.99 L 974.92 204.99 C 974.55 204.96 974.21 205.07 973.89 205.29 C 973.57 205.51 973.35 205.73 973.22 205.94 C 973.11 206.15 972.92 206.56 972.66 207.17 C 972.4 207.78 972.16 208.4 971.95 209.03 C 971.84 209.35 971.67 209.56 971.43 209.67 C 971.19 209.77 970.95 209.82 970.7 209.8 C 970.45 209.79 970.21 209.72 969.98 209.59 C 969.76 209.46 969.61 209.3 969.53 209.11 C 969.45 208.93 969.32 208.6 969.14 208.14 C 968.95 207.68 968.76 207.21 968.58 206.74 C 968.34 206.18 968.1 205.59 967.86 204.95 C 967.18 207.14 966.56 209.17 966 211.01 C 965.77 211.81 965.53 212.58 965.29 213.35 C 965.05 214.12 964.83 214.83 964.64 215.47 C 964.44 216.12 964.28 216.67 964.14 217.11 C 964.01 217.56 963.93 217.87 963.91 218.03 C 963.77 218.66 963.52 219.16 963.15 219.53 C 962.78 219.9 962.33 220.07 961.81 220.05 C 961.25 219.99 960.85 219.76 960.62 219.33 C 960.38 218.91 960.23 218.42 960.18 217.87 C 960.18 217.73 960.15 217.33 960.08 216.64 C 960.01 215.95 959.93 215.08 959.83 214.03 C 959.72 212.97 959.61 211.79 959.49 210.5 C 959.37 209.2 959.24 207.88 959.11 206.54 C 958.82 203.39 958.48 199.88 958.08 196 C 957.34 198.16 956.68 200.11 956.1 201.82 C 955.86 202.56 955.62 203.29 955.37 204 C 955.12 204.72 954.89 205.36 954.69 205.94 C 954.5 206.52 954.33 207.01 954.2 207.41 L 953.96 208.12 C 953.83 208.47 953.65 208.78 953.42 209.07 C 953.2 209.36 952.85 209.49 952.38 209.47 C 951.9 209.47 951.54 209.31 951.31 208.97 C 951.07 208.65 950.89 208.27 950.75 207.84 C 950.68 207.63 950.53 207.22 950.32 206.61 C 950.1 206.01 949.88 205.39 949.64 204.75 C 949.35 204.02 949.05 203.2 948.73 202.3 C 948.55 202.53 948.35 202.77 948.14 203.01 C 947.96 203.22 947.75 203.45 947.54 203.71 C 947.33 203.95 947.12 204.2 946.91 204.44 C 946.49 204.94 946.09 205.28 945.72 205.47 C 945.35 205.65 944.92 205.72 944.41 205.67 C 944.15 205.64 943.8 205.63 943.36 205.64 C 942.93 205.66 942.49 205.67 942.04 205.67 C 941.54 205.69 940.98 205.7 940.37 205.7 L 940.37 202.61 Z M 940.37 202.61 Z" fill="#0B88FF" stroke="none"/>
+</g>
+<g id="shape-27" data-name="文本框 26">
+<rect x="142.31" y="300.24" width="369.32" height="235.88" fill="none"/>
+<text x="326.97" y="327.71" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000"><tspan fill="#000000" font-size="26.67">Lorem ipsum dolor sit </tspan><tspan x="326.97" dy="26.67" fill="#000000" font-size="26.67">amet, consectetuer </tspan><tspan x="326.97" dy="26.67" fill="#000000" font-size="26.67">adipiscing elit. Maecenas </tspan><tspan x="326.97" dy="26.67" fill="#000000" font-size="26.67">porttitor congue massa. </tspan><tspan x="326.97" dy="26.67" fill="#000000" font-size="26.67">Fusce posuere, magna sed </tspan><tspan x="326.97" dy="26.67" fill="#000000" font-size="26.67">pulvinar ultricies, purus </tspan><tspan x="326.97" dy="26.67" fill="#000000" font-size="26.67">lectus malesuada libero, </tspan><tspan x="326.97" dy="26.67" fill="#000000" font-size="26.67">sit </tspan><tspan fill="#000000" font-size="26.67">amet</tspan><tspan fill="#000000" font-size="26.67"> </tspan><tspan fill="#000000" font-size="26.67">commodo</tspan><tspan fill="#000000" font-size="26.67">.</tspan></text>
+</g>
+<g id="shape-28" data-name="文本框 27">
+<rect x="774.71" y="300.24" width="369.32" height="235.88" fill="none"/>
+<text x="959.37" y="327.71" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000"><tspan fill="#000000" font-size="26.67">Lorem ipsum dolor sit </tspan><tspan x="959.37" dy="26.67" fill="#000000" font-size="26.67">amet, consectetuer </tspan><tspan x="959.37" dy="26.67" fill="#000000" font-size="26.67">adipiscing elit. Maecenas </tspan><tspan x="959.37" dy="26.67" fill="#000000" font-size="26.67">porttitor congue massa. </tspan><tspan x="959.37" dy="26.67" fill="#000000" font-size="26.67">Fusce posuere, magna sed </tspan><tspan x="959.37" dy="26.67" fill="#000000" font-size="26.67">pulvinar ultricies, purus </tspan><tspan x="959.37" dy="26.67" fill="#000000" font-size="26.67">lectus malesuada libero, </tspan><tspan x="959.37" dy="26.67" fill="#000000" font-size="26.67">sit </tspan><tspan fill="#000000" font-size="26.67">amet</tspan><tspan fill="#000000" font-size="26.67"> </tspan><tspan fill="#000000" font-size="26.67">commodo</tspan><tspan fill="#000000" font-size="26.67">.</tspan></text>
+</g></svg>

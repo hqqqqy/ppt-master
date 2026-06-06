@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><marker id="marrow1" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#D9D9D9"/></marker><marker id="marrow2" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#D9D9D9"/></marker><marker id="marrow3" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#D9D9D9"/></marker></defs><image href="../assets/image1.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+<g id="shape-13" data-name="组合 12">
+<g id="shape-2" data-name="文本框 1">
+<rect x="61.67" y="65.26" width="56.41" height="45.24" fill="none"/>
+<text x="71.27" y="95" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="29.33" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="29.33" font-weight="bold">3.3</tspan></text>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="110.3" y="68.49" width="100.67" height="42.01" fill="none"/>
+<text x="119.9" y="95.96" text-anchor="start" xml:space="preserve" font-family="&quot;碳纤维正中黑简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="26.67" font-weight="bold">理论二</tspan></text>
+</g>
+</g>
+<g id="shape-4" data-name="文本框 3">
+<rect x="1079.79" y="610.14" width="138.54" height="42.01" fill="none"/>
+<text x="1089.39" y="637.6" text-anchor="start" xml:space="preserve" font-family="&quot;碳纤维正中黑简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67"><tspan fill="#0B88FF" font-size="26.67" font-weight="bold" font-style="italic" letter-spacing="2.67">理论</tspan><tspan fill="#000000" font-size="26.67" font-weight="bold" font-style="italic" letter-spacing="2.67">分析</tspan></text>
+</g>
+<g id="shape-6" data-name="图片 5">
+<image href="../assets/image4.jpeg" x="1340.95" y="0" width="664.62" height="720" preserveAspectRatio="none"/>
+</g>
+<g id="shape-8" data-name="直接连接符 7" transform="translate(1001.65 631.14) scale(-1 1) translate(-1001.65 -631.14)">
+<line x1="923.5" y1="631.14" x2="1079.79" y2="631.14" stroke-width="2.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-10" data-name="文本框 9">
+<rect x="770.7" y="639.22" width="447.63" height="67.86" fill="none"/>
+<text x="780.3" y="684.82" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic"><tspan fill="#F2F2F2" font-size="48" font-style="italic">THEORETICAL ANALYSIS</tspan></text>
+</g>
+<g id="shape-11" data-name="矩形 10">
+<image href="../assets/image2.png" x="1149.13" y="46.33" width="69.2" height="69.2" preserveAspectRatio="none"/>
+<rect x="1149.13" y="46.33" width="69.2" height="69.2" fill="none" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-12" data-name="直接连接符 11">
+<line x1="68.12" y1="51.51" x2="127.55" y2="51.51" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-14" data-name="文本框 13">
+<rect x="57" y="607.56" width="138.71" height="54.93" fill="none"/>
+<text x="66.6" y="628.22" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, +mn-cs, sans-serif" font-size="18.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="18.67" font-weight="bold">CASE STUDY</tspan></text>
+<text x="66.6" y="646.89" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, +mn-cs, sans-serif" font-size="18.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="18.67" font-weight="bold">RESEARCH.</tspan></text>
+</g>
+<g id="shape-15" data-name="直接连接符 14">
+<line x1="68.12" y1="671.06" x2="127.55" y2="671.06" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-7" data-name="组合 6">
+<g id="shape-20" data-name="组合 19">
+<g id="shape-21" data-name="任意多边形: 形状 20">
+<path d="M 76.54 196.84 L 337.49 196.84 L 333.37 245.45 L 331.84 245.45 L 335.76 199.16 L 77.88 199.16 L 63.4 369.96 L 321.28 369.96 L 325.2 323.68 L 326.74 323.68 L 322.62 372.28 L 61.67 372.28 L 76.54 196.84 Z" fill="#E7E6E6" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-22" data-name="平行四边形 21">
+<polygon points="95.48,205.95 324.93,205.95 303.68,363.17 74.23,363.17" fill="none" stroke-width="2" stroke="#D9D9D9"/>
+</g>
+<g id="shape-23" data-name="平行四边形 22">
+<polygon points="329.39,240.24 337.45,240.24 336.7,245.76 328.64,245.76" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-24" data-name="平行四边形 23">
+<polygon points="322.52,320.6 330.57,320.6 329.83,326.12 321.77,326.12" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+</g>
+<g id="shape-40" data-name="组合 39">
+<g id="shape-41" data-name="文本框 40">
+<rect x="135" y="211.86" width="144.77" height="48.47" fill="none"/>
+<text x="144.6" y="243.86" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000"><tspan fill="#000000" font-size="32">TEXT HERE</tspan></text>
+</g>
+<g id="shape-42" data-name="文本框 41">
+<rect x="87.39" y="260.33" width="240" height="96.94" fill="none"/>
+<text x="207.39" y="285.53" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">Lorem ipsum dolor </tspan><tspan x="207.39" dy="24" fill="#000000" font-size="24">sit amet, </tspan><tspan x="207.39" dy="24" fill="#000000" font-size="24">consectetuer </tspan><tspan x="207.39" dy="24" fill="#000000" font-size="24">adipiscing</tspan><tspan fill="#000000" font-size="24"> </tspan><tspan fill="#000000" font-size="24">elit</tspan><tspan fill="#000000" font-size="24">.</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-43" data-name="组合 42">
+<g id="shape-44" data-name="组合 43">
+<g id="shape-48" data-name="任意多边形: 形状 47">
+<path d="M 369.6 196.84 L 630.55 196.84 L 626.42 245.45 L 624.89 245.45 L 628.82 199.16 L 370.93 199.16 L 356.45 369.96 L 614.33 369.96 L 618.26 323.68 L 619.79 323.68 L 615.67 372.28 L 354.72 372.28 L 369.6 196.84 Z" fill="#E7E6E6" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-49" data-name="平行四边形 48">
+<polygon points="388.54,205.95 617.99,205.95 596.73,363.17 367.28,363.17" fill="none" stroke-width="2" stroke="#D9D9D9"/>
+</g>
+<g id="shape-50" data-name="平行四边形 49">
+<polygon points="622.44,240.24 630.5,240.24 629.76,245.76 621.7,245.76" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-51" data-name="平行四边形 50">
+<polygon points="615.57,320.6 623.63,320.6 622.88,326.12 614.82,326.12" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+</g>
+<g id="shape-45" data-name="组合 44">
+<g id="shape-46" data-name="文本框 45">
+<rect x="428.06" y="211.86" width="144.77" height="48.47" fill="none"/>
+<text x="437.66" y="243.86" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000"><tspan fill="#000000" font-size="32">TEXT HERE</tspan></text>
+</g>
+<g id="shape-47" data-name="文本框 46">
+<rect x="380.44" y="260.33" width="240" height="96.94" fill="none"/>
+<text x="500.44" y="285.53" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">Lorem ipsum dolor </tspan><tspan x="500.44" dy="24" fill="#000000" font-size="24">sit amet, </tspan><tspan x="500.44" dy="24" fill="#000000" font-size="24">consectetuer </tspan><tspan x="500.44" dy="24" fill="#000000" font-size="24">adipiscing</tspan><tspan fill="#000000" font-size="24"> </tspan><tspan fill="#000000" font-size="24">elit</tspan><tspan fill="#000000" font-size="24">.</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-52" data-name="组合 51">
+<g id="shape-53" data-name="组合 52">
+<g id="shape-57" data-name="任意多边形: 形状 56">
+<path d="M 662.65 196.84 L 923.6 196.84 L 919.48 245.45 L 917.94 245.45 L 921.87 199.16 L 663.99 199.16 L 649.5 369.96 L 907.39 369.96 L 911.31 323.68 L 912.84 323.68 L 908.72 372.28 L 647.77 372.28 L 662.65 196.84 Z" fill="#E7E6E6" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-58" data-name="平行四边形 57">
+<polygon points="681.59,205.95 911.04,205.95 889.78,363.17 660.33,363.17" fill="none" stroke-width="2" stroke="#D9D9D9"/>
+</g>
+<g id="shape-59" data-name="平行四边形 58">
+<polygon points="915.5,240.24 923.56,240.24 922.81,245.76 914.75,245.76" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-60" data-name="平行四边形 59">
+<polygon points="908.62,320.6 916.68,320.6 915.94,326.12 907.88,326.12" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+</g>
+<g id="shape-54" data-name="组合 53">
+<g id="shape-55" data-name="文本框 54">
+<rect x="721.11" y="211.86" width="144.77" height="48.47" fill="none"/>
+<text x="730.71" y="243.86" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000"><tspan fill="#000000" font-size="32">TEXT HERE</tspan></text>
+</g>
+<g id="shape-56" data-name="文本框 55">
+<rect x="673.49" y="260.33" width="240" height="96.94" fill="none"/>
+<text x="793.49" y="285.53" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">Lorem ipsum dolor </tspan><tspan x="793.49" dy="24" fill="#000000" font-size="24">sit amet, </tspan><tspan x="793.49" dy="24" fill="#000000" font-size="24">consectetuer </tspan><tspan x="793.49" dy="24" fill="#000000" font-size="24">adipiscing</tspan><tspan fill="#000000" font-size="24"> </tspan><tspan fill="#000000" font-size="24">elit</tspan><tspan fill="#000000" font-size="24">.</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-61" data-name="组合 60">
+<g id="shape-62" data-name="组合 61">
+<g id="shape-66" data-name="任意多边形: 形状 65">
+<path d="M 955.7 196.84 L 1216.65 196.84 L 1212.53 245.45 L 1211 245.45 L 1214.92 199.16 L 957.04 199.16 L 942.56 369.96 L 1200.44 369.96 L 1204.36 323.68 L 1205.9 323.68 L 1201.78 372.28 L 940.83 372.28 L 955.7 196.84 Z" fill="#E7E6E6" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-67" data-name="平行四边形 66">
+<polygon points="974.64,205.95 1204.09,205.95 1182.84,363.17 953.39,363.17" fill="none" stroke-width="2" stroke="#D9D9D9"/>
+</g>
+<g id="shape-68" data-name="平行四边形 67">
+<polygon points="1208.55,240.24 1216.61,240.24 1215.86,245.76 1207.81,245.76" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+<g id="shape-69" data-name="平行四边形 68">
+<polygon points="1201.68,320.6 1209.74,320.6 1208.99,326.12 1200.93,326.12" fill="#0B88FF" stroke-width="3.333" stroke="none"/>
+</g>
+</g>
+<g id="shape-63" data-name="组合 62">
+<g id="shape-64" data-name="文本框 63">
+<rect x="1014.16" y="211.86" width="144.77" height="48.47" fill="none"/>
+<text x="1023.76" y="243.86" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000"><tspan fill="#000000" font-size="32">TEXT HERE</tspan></text>
+</g>
+<g id="shape-65" data-name="文本框 64">
+<rect x="966.55" y="260.33" width="240" height="96.94" fill="none"/>
+<text x="1086.55" y="285.53" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">Lorem ipsum dolor </tspan><tspan x="1086.55" dy="24" fill="#000000" font-size="24">sit amet, </tspan><tspan x="1086.55" dy="24" fill="#000000" font-size="24">consectetuer </tspan><tspan x="1086.55" dy="24" fill="#000000" font-size="24">adipiscing</tspan><tspan fill="#000000" font-size="24"> </tspan><tspan fill="#000000" font-size="24">elit</tspan><tspan fill="#000000" font-size="24">.</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-70" data-name="直接箭头连接符 69">
+<line x1="337.45" y1="285.53" x2="362.22" y2="285.53" stroke="#D9D9D9" marker-end="url(#marrow1)" fill="#0B88FF" stroke-width="1"/>
+</g>
+<g id="shape-72" data-name="直接箭头连接符 71">
+<line x1="630.5" y1="285.53" x2="655.27" y2="285.53" stroke="#D9D9D9" marker-end="url(#marrow2)" fill="#0B88FF" stroke-width="1"/>
+</g>
+<g id="shape-73" data-name="直接箭头连接符 72">
+<line x1="923.5" y1="285.53" x2="948.27" y2="285.53" stroke="#D9D9D9" marker-end="url(#marrow3)" fill="#0B88FF" stroke-width="1"/>
+</g>
+<g id="shape-74" data-name="组合 73">
+<g id="shape-75" data-name="文本框 74">
+<rect x="118.08" y="421.73" width="242.06" height="48.47" fill="none"/>
+<text x="127.68" y="453.73" text-anchor="start" xml:space="preserve" font-family="&quot;碳纤维正中黑简体&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">这里是标题</tspan></text>
+</g>
+<g id="shape-76" data-name="文本框 75">
+<rect x="61.67" y="472.6" width="1156.67" height="74.32" fill="none"/>
+<text x="71.27" y="500.06" text-anchor="start" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000"><tspan fill="#000000" font-size="26.67">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue </tspan><tspan x="71.27" dy="26.67" fill="#000000" font-size="26.67">massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, </tspan><tspan x="71.27" dy="26.67" fill="#000000" font-size="26.67">sit amet </tspan><tspan fill="#000000" font-size="26.67">commodo</tspan><tspan fill="#000000" font-size="26.67"> magna.</tspan></text>
+</g>
+<g id="shape-77" data-name="文本框 76">
+<rect x="313.32" y="418.44" width="240" height="48.47" fill="none"/>
+<text x="322.92" y="450.44" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed&quot;, &quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="32" fill="#0B88FF" font-weight="bold"><tspan fill="#0B88FF" font-size="32" font-weight="bold">TEXT HERE</tspan></text>
+</g>
+<g id="shape-78" data-name="live-chat_72439">
+<path d="M 98.69 438.41 C 97.21 438.41 96.01 439.62 96.01 441.1 C 96.01 442.58 97.21 443.78 98.69 443.78 C 100.18 443.78 101.38 442.58 101.38 441.1 C 101.38 439.62 100.18 438.41 98.69 438.41 Z M 88.84 438.41 C 87.35 438.41 86.15 439.62 86.15 441.1 C 86.15 442.58 87.35 443.78 88.84 443.78 C 90.32 443.78 91.52 442.58 91.52 441.1 C 91.52 439.62 90.32 438.41 88.84 438.41 Z M 75.48 435.01 C 75.4 435.16 75.31 435.32 75.23 435.48 C 74.18 437.53 73.65 439.72 73.65 441.97 C 73.65 444.22 74.18 446.41 75.23 448.46 C 76.23 450.41 77.65 452.16 79.45 453.65 C 83.07 456.64 87.85 458.29 92.92 458.29 C 93.53 458.29 94.15 458.26 94.76 458.21 C 92.02 459.77 88.71 460.67 85.15 460.67 C 84.22 460.67 83.28 460.61 82.37 460.49 C 79.66 462.23 76.08 464.29 74.05 464.51 C 74.03 464.52 74.01 464.52 73.99 464.52 C 73.8 464.52 73.62 464.42 73.52 464.27 C 73.4 464.09 73.4 463.87 73.5 463.68 C 73.52 463.65 75.26 460.54 74.51 457.59 C 70.44 454.9 68.12 450.91 68.12 446.59 C 68.12 441.8 71.04 437.55 75.48 435.01 Z M 93.76 426.29 C 103.77 426.29 111.91 433.11 111.91 441.49 C 111.91 446.03 109.55 450.26 105.41 453.16 C 105.02 455.52 106.37 458.01 106.39 458.03 C 106.7 458.58 106.68 459.25 106.33 459.77 C 106.02 460.25 105.49 460.53 104.92 460.53 C 104.87 460.53 104.81 460.53 104.74 460.52 C 102.98 460.33 100.13 458.99 96.28 456.54 C 95.45 456.64 94.6 456.69 93.76 456.69 C 83.76 456.69 75.62 449.87 75.62 441.49 C 75.62 433.11 83.76 426.29 93.76 426.29 Z" fill="#000000" stroke="none"/>
+</g>
+</g></svg>

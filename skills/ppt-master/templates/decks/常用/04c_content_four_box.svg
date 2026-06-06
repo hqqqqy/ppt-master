@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <filter id="shadow1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="2.67" flood-color="#000000" flood-opacity="0.05"/></filter>
+    <filter id="shadow2" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="2.67" flood-color="#000000" flood-opacity="0.05"/></filter>
+    <filter id="shadow3" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="2.67" flood-color="#000000" flood-opacity="0.05"/></filter>
+    <filter id="shadow4" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="2.67" flood-color="#000000" flood-opacity="0.05"/></filter>
+  </defs>
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <!-- SHARED CHROME -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{PAGE_TITLE}}</text>
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{SECTION_NAME}}</text>
+  <line x1="964" y1="631" x2="1120" y2="631" stroke-width="2.667" stroke="#0B88FF" fill="none"/>
+  <text x="841" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{SECTION_EN}}</text>
+
+  <!-- 4-box double-border grid (2×2) -->
+  <!-- Top-Left box -->
+  <g filter="url(#shadow1)">
+    <rect x="72" y="123" width="527" height="210" fill="none" stroke-width="2.667" stroke="#CEE7FF"/>
+  </g>
+  <rect x="78" y="130" width="527" height="210" fill="none" stroke-width="2.667" stroke="#0B88FF"/>
+  <text x="320" y="165" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{BOX1_TITLE}}</text>
+  <rect x="88" y="175" width="510" height="150" fill="none"/>
+  <text x="98" y="202" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{BOX1_CONTENT}}</text>
+
+  <!-- Top-Right box -->
+  <g filter="url(#shadow2)">
+    <rect x="671" y="123" width="527" height="210" fill="none" stroke-width="2.667" stroke="#CEE7FF"/>
+  </g>
+  <rect x="677" y="130" width="527" height="210" fill="none" stroke-width="2.667" stroke="#0B88FF"/>
+  <text x="935" y="165" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{BOX2_TITLE}}</text>
+  <rect x="687" y="175" width="510" height="150" fill="none"/>
+  <text x="697" y="202" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{BOX2_CONTENT}}</text>
+
+  <!-- Bottom-Left box -->
+  <g filter="url(#shadow3)">
+    <rect x="72" y="366" width="527" height="210" fill="none" stroke-width="2.667" stroke="#CEE7FF"/>
+  </g>
+  <rect x="78" y="373" width="527" height="210" fill="none" stroke-width="2.667" stroke="#0B88FF"/>
+  <text x="320" y="408" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{BOX3_TITLE}}</text>
+  <rect x="88" y="418" width="510" height="150" fill="none"/>
+  <text x="98" y="445" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{BOX3_CONTENT}}</text>
+
+  <!-- Bottom-Right box -->
+  <g filter="url(#shadow4)">
+    <rect x="671" y="366" width="527" height="210" fill="none" stroke-width="2.667" stroke="#CEE7FF"/>
+  </g>
+  <rect x="677" y="373" width="527" height="210" fill="none" stroke-width="2.667" stroke="#0B88FF"/>
+  <text x="935" y="408" text-anchor="middle" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{BOX4_TITLE}}</text>
+  <rect x="687" y="418" width="510" height="150" fill="none"/>
+  <text x="697" y="445" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{BOX4_CONTENT}}</text>
+
+  <!-- Center 2×2 color accent squares -->
+  <rect x="581" y="301" width="55" height="55" fill="#0B88FF" stroke="none"/>
+  <rect x="644" y="301" width="55" height="55" fill="#9DCFFF" stroke="none"/>
+  <rect x="581" y="364" width="55" height="55" fill="#9DCFFF" stroke="none"/>
+  <rect x="644" y="364" width="55" height="55" fill="#0B88FF" stroke="none"/>
+
+  <!-- Content area placeholder -->
+  <text x="640" y="290" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#BFBFBF">{{CONTENT_AREA}}</text>
+</svg>

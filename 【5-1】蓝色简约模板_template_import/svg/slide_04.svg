@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><image href="../assets/image1.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+<g id="shape-2" data-name="组合 1">
+<g id="shape-3" data-name="文本框 2">
+<rect x="61.67" y="65.26" width="56.41" height="45.24" fill="none"/>
+<text x="71.27" y="95" text-anchor="start" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="29.33" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="29.33" font-weight="bold">1.1</tspan></text>
+</g>
+<g id="shape-4" data-name="文本框 3">
+<rect x="110.3" y="68.49" width="127.77" height="42.01" fill="none"/>
+<text x="119.9" y="95.96" text-anchor="start" xml:space="preserve" font-family="&quot;碳纤维正中黑简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="26.67" font-weight="bold">研究背景</tspan></text>
+</g>
+</g>
+<g id="shape-5" data-name="文本框 4">
+<rect x="1120.37" y="610.14" width="102.63" height="42.01" fill="none"/>
+<text x="1213.4" y="637.6" text-anchor="end" xml:space="preserve" font-family="&quot;碳纤维正中黑简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67"><tspan fill="#0B88FF" font-size="26.67" font-weight="bold" font-style="italic" letter-spacing="2.67">引</tspan><tspan fill="#FECB00" font-size="26.67" font-weight="bold" font-style="italic" letter-spacing="2.67"> </tspan><tspan fill="#000000" font-size="26.67" font-weight="bold" font-style="italic" letter-spacing="2.67">言</tspan></text>
+</g>
+<g id="shape-7" data-name="直接连接符 6" transform="translate(1042.22 631.14) scale(-1 1) translate(-1042.22 -631.14)">
+<line x1="964.08" y1="631.14" x2="1120.37" y2="631.14" stroke-width="2.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-8" data-name="文本框 7">
+<rect x="832.11" y="639.22" width="386.22" height="67.86" fill="none"/>
+<text x="1208.73" y="684.82" text-anchor="end" xml:space="preserve" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, &quot;等线&quot;, +mn-cs, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic"><tspan fill="#F2F2F2" font-size="48" font-style="italic">INTRODUCTION</tspan></text>
+</g>
+<g id="shape-9" data-name="矩形 8">
+<image href="../assets/image2.png" x="1149.13" y="46.33" width="69.2" height="69.2" preserveAspectRatio="none"/>
+<rect x="1149.13" y="46.33" width="69.2" height="69.2" fill="none" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-10" data-name="直接连接符 9">
+<line x1="68.12" y1="51.51" x2="127.55" y2="51.51" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-11" data-name="文本框 10">
+<rect x="57" y="607.56" width="138.71" height="54.93" fill="none"/>
+<text x="66.6" y="628.22" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, +mn-cs, sans-serif" font-size="18.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="18.67" font-weight="bold">CASE STUDY</tspan></text>
+<text x="66.6" y="646.89" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, +mn-cs, sans-serif" font-size="18.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="18.67" font-weight="bold">RESEARCH.</tspan></text>
+</g>
+<g id="shape-12" data-name="直接连接符 11">
+<line x1="68.12" y1="671.06" x2="127.55" y2="671.06" stroke-width="6.667" stroke="#0B88FF" fill="#0B88FF"/>
+</g>
+<g id="shape-13" data-name="文本框 12">
+<rect x="68.12" y="130.26" width="1150.21" height="74.32" fill="none"/>
+<text x="77.72" y="157.73" text-anchor="start" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000"><tspan fill="#000000" font-size="26.67">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue </tspan><tspan x="77.72" dy="26.67" fill="#000000" font-size="26.67">massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus </tspan><tspan fill="#000000" font-size="26.67">malesuada</tspan><tspan fill="#000000" font-size="26.67"> libero.</tspan></text>
+</g>
+<g id="shape-14" data-name="iconfont-11180-4674648">
+<path d="M 238.89 271.17 C 230.52 271.17 222.98 266.13 219.78 258.4 C 216.58 250.68 218.35 241.78 224.27 235.87 C 230.18 229.95 239.07 228.18 246.8 231.38 C 254.53 234.59 259.56 242.12 259.56 250.49 C 259.56 255.97 257.39 261.23 253.51 265.11 C 249.63 268.99 244.37 271.17 238.89 271.17 Z M 249.68 243.86 C 249.1 243.28 248.16 243.28 247.59 243.86 L 236.1 255.34 L 230.18 249.42 C 229.6 248.88 228.69 248.89 228.12 249.45 C 227.56 250.02 227.54 250.93 228.09 251.51 L 235.06 258.48 C 235.64 259.05 236.57 259.05 237.14 258.48 L 249.68 245.95 C 250.25 245.37 250.25 244.44 249.68 243.86 Z" fill="#A6A6A6" stroke="none"/>
+</g>
+<g id="shape-15" data-name="iconfont-10585-5147501">
+<path d="M 649.47 240.71 C 647.11 235.77 641.7 233.05 636.33 234.09 C 630.95 235.14 626.97 239.69 626.63 245.16 C 621.93 246.5 618.51 250.64 618.51 255.5 C 618.51 261.24 623.28 265.96 629.25 266.3 L 649.4 266.3 C 656.05 266.3 661.49 260.56 661.49 253.47 C 661.49 246.65 656.18 241.05 649.47 240.71 Z M 645.99 254.01 L 644.59 254.01 C 644.21 254.01 643.89 254.3 643.88 254.69 L 643.86 261.56 C 643.84 262.32 643.21 262.92 642.45 262.9 L 637.54 262.9 C 636.78 262.92 636.15 262.32 636.13 261.56 L 636.12 254.69 C 636.11 254.3 635.79 254 635.41 254.01 L 634 254.01 C 633.24 254.03 632.61 253.43 632.59 252.67 C 632.59 252.38 632.69 252.1 632.86 251.87 L 638.74 245.09 C 639.45 244.43 640.54 244.43 641.24 245.09 L 647.12 251.87 C 647.3 252.1 647.4 252.38 647.4 252.67 C 647.38 253.43 646.75 254.03 645.99 254.01 Z" fill="#0B88FF" stroke="none"/>
+</g>
+<g id="shape-16" data-name="live-chat_72439">
+<path d="M 1035.75 242.81 C 1034.29 242.81 1033.11 244 1033.11 245.45 C 1033.11 246.9 1034.29 248.08 1035.75 248.08 C 1037.2 248.08 1038.39 246.9 1038.39 245.45 C 1038.39 244 1037.21 242.81 1035.75 242.81 Z M 1026.07 242.81 C 1024.61 242.81 1023.43 244 1023.43 245.45 C 1023.43 246.9 1024.61 248.08 1026.07 248.08 C 1027.53 248.08 1028.71 246.9 1028.71 245.45 C 1028.71 244 1027.53 242.81 1026.07 242.81 Z M 1012.97 239.48 C 1012.88 239.62 1012.8 239.78 1012.72 239.93 C 1011.69 241.95 1011.17 244.09 1011.17 246.31 C 1011.17 248.52 1011.69 250.66 1012.72 252.68 C 1013.7 254.59 1015.1 256.3 1016.86 257.76 C 1020.42 260.7 1025.11 262.32 1030.08 262.32 C 1030.68 262.32 1031.28 262.29 1031.88 262.24 C 1029.2 263.77 1025.95 264.66 1022.45 264.66 C 1021.54 264.66 1020.62 264.6 1019.73 264.48 C 1017.07 266.18 1013.55 268.21 1011.56 268.43 C 1011.54 268.44 1011.52 268.44 1011.5 268.44 C 1011.31 268.44 1011.14 268.34 1011.04 268.19 C 1010.92 268.01 1010.92 267.79 1011.02 267.61 C 1011.04 267.58 1012.75 264.53 1012.01 261.63 C 1008.02 258.99 1005.74 255.08 1005.74 250.84 C 1005.74 246.13 1008.61 241.97 1012.97 239.48 Z M 1030.91 230.92 C 1040.73 230.92 1048.72 237.61 1048.72 245.83 C 1048.72 250.29 1046.4 254.44 1042.34 257.28 C 1041.95 259.61 1043.28 262.04 1043.3 262.06 C 1043.61 262.6 1043.59 263.26 1043.24 263.78 C 1042.94 264.25 1042.42 264.52 1041.86 264.52 C 1041.8 264.52 1041.75 264.52 1041.68 264.51 C 1039.96 264.32 1037.16 263 1033.38 260.61 C 1032.57 260.7 1031.73 260.75 1030.91 260.75 C 1021.09 260.75 1013.1 254.06 1013.1 245.83 C 1013.1 237.61 1021.09 230.92 1030.91 230.92 Z" fill="#A6A6A6" stroke="none"/>
+</g>
+<g id="shape-17" data-name="文本框 16">
+<rect x="155.74" y="276.45" width="164.67" height="48.47" fill="none"/>
+<text x="238.07" y="308.45" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">Text Here</tspan></text>
+</g>
+<g id="shape-18" data-name="直接连接符 17">
+<line x1="155.74" y1="325.9" x2="1107.56" y2="325.9" stroke-width="1.333" stroke="#D9D9D9" fill="#0B88FF"/>
+</g>
+<g id="shape-19" data-name="矩形: 圆角 18">
+<rect x="155.74" y="323.5" width="164.67" height="4.8" rx="2.4" ry="2.4" fill="#A6A6A6" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-20" data-name="文本框 19">
+<rect x="560.89" y="276.45" width="164.67" height="48.47" fill="none"/>
+<text x="643.23" y="308.45" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">Text Here</tspan></text>
+</g>
+<g id="shape-21" data-name="矩形: 圆角 20">
+<rect x="560.89" y="323.01" width="164.67" height="4.8" rx="2.4" ry="2.4" fill="#0B88FF" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-22" data-name="文本框 21">
+<rect x="942.89" y="276.45" width="164.67" height="48.47" fill="none"/>
+<text x="1025.22" y="308.45" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">Text Here</tspan></text>
+</g>
+<g id="shape-23" data-name="矩形: 圆角 22">
+<rect x="942.89" y="323.5" width="164.67" height="4.8" rx="2.4" ry="2.4" fill="#A6A6A6" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-24" data-name="文本框 23">
+<rect x="68.12" y="345.56" width="369.32" height="235.88" fill="none"/>
+<text x="252.78" y="373.02" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000"><tspan fill="#000000" font-size="26.67">Lorem ipsum dolor sit </tspan><tspan x="252.78" dy="26.67" fill="#000000" font-size="26.67">amet, consectetuer </tspan><tspan x="252.78" dy="26.67" fill="#000000" font-size="26.67">adipiscing elit. Maecenas </tspan><tspan x="252.78" dy="26.67" fill="#000000" font-size="26.67">porttitor congue massa. </tspan><tspan x="252.78" dy="26.67" fill="#000000" font-size="26.67">Fusce posuere, magna sed </tspan><tspan x="252.78" dy="26.67" fill="#000000" font-size="26.67">pulvinar ultricies, purus </tspan><tspan x="252.78" dy="26.67" fill="#000000" font-size="26.67">lectus malesuada libero, </tspan><tspan x="252.78" dy="26.67" fill="#000000" font-size="26.67">sit </tspan><tspan fill="#000000" font-size="26.67">amet</tspan><tspan fill="#000000" font-size="26.67"> </tspan><tspan fill="#000000" font-size="26.67">commodo</tspan><tspan fill="#000000" font-size="26.67">.</tspan></text>
+</g>
+<g id="shape-25" data-name="文本框 24">
+<rect x="458.57" y="345.56" width="369.32" height="235.88" fill="none"/>
+<text x="643.23" y="373.02" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000"><tspan fill="#000000" font-size="26.67">Lorem ipsum dolor sit </tspan><tspan x="643.23" dy="26.67" fill="#000000" font-size="26.67">amet, consectetuer </tspan><tspan x="643.23" dy="26.67" fill="#000000" font-size="26.67">adipiscing elit. Maecenas </tspan><tspan x="643.23" dy="26.67" fill="#000000" font-size="26.67">porttitor congue massa. </tspan><tspan x="643.23" dy="26.67" fill="#000000" font-size="26.67">Fusce posuere, magna sed </tspan><tspan x="643.23" dy="26.67" fill="#000000" font-size="26.67">pulvinar ultricies, purus </tspan><tspan x="643.23" dy="26.67" fill="#000000" font-size="26.67">lectus malesuada libero, </tspan><tspan x="643.23" dy="26.67" fill="#000000" font-size="26.67">sit </tspan><tspan fill="#000000" font-size="26.67">amet</tspan><tspan fill="#000000" font-size="26.67"> </tspan><tspan fill="#000000" font-size="26.67">commodo</tspan><tspan fill="#000000" font-size="26.67">.</tspan></text>
+</g>
+<g id="shape-26" data-name="文本框 25">
+<rect x="842.57" y="345.56" width="369.32" height="235.88" fill="none"/>
+<text x="1027.23" y="373.02" text-anchor="middle" xml:space="preserve" font-family="&quot;方正宋刻本秀楷简体&quot;, +mn-cs, sans-serif" font-size="26.67" fill="#000000"><tspan fill="#000000" font-size="26.67">Lorem ipsum dolor sit </tspan><tspan x="1027.23" dy="26.67" fill="#000000" font-size="26.67">amet, consectetuer </tspan><tspan x="1027.23" dy="26.67" fill="#000000" font-size="26.67">adipiscing elit. Maecenas </tspan><tspan x="1027.23" dy="26.67" fill="#000000" font-size="26.67">porttitor congue massa. </tspan><tspan x="1027.23" dy="26.67" fill="#000000" font-size="26.67">Fusce posuere, magna sed </tspan><tspan x="1027.23" dy="26.67" fill="#000000" font-size="26.67">pulvinar ultricies, purus </tspan><tspan x="1027.23" dy="26.67" fill="#000000" font-size="26.67">lectus malesuada libero, </tspan><tspan x="1027.23" dy="26.67" fill="#000000" font-size="26.67">sit </tspan><tspan fill="#000000" font-size="26.67">amet</tspan><tspan fill="#000000" font-size="26.67"> </tspan><tspan fill="#000000" font-size="26.67">commodo</tspan><tspan fill="#000000" font-size="26.67">.</tspan></text>
+</g></svg>

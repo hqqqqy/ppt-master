@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Full-page background -->
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+
+  <!-- Top-left: blue accent bar -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+
+  <!-- Top-left: project-type label -->
+  <g id="top-left-badge">
+    <rect x="57" y="63" width="200" height="56" fill="none"/>
+    <text x="67" y="84" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+    <text x="67" y="103" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+  </g>
+
+  <!-- Top-right: brand emblem -->
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+
+  <!-- Center ghost EN title -->
+  <g id="center-title">
+    <rect x="197" y="232" width="887" height="139" fill="none"/>
+    <text x="1074" y="328" text-anchor="end" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="106.67" fill="#F2F2F2" font-weight="bold">{{SUBTITLE}}</text>
+  </g>
+
+  <!-- Center Chinese main title -->
+  <g id="center-main-title">
+    <rect x="197" y="311" width="800" height="75" fill="none"/>
+    <text x="207" y="362" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="53.33" fill="#000000" font-weight="bold">{{TITLE}}</text>
+  </g>
+
+  <!-- Author row -->
+  <g id="author-row">
+    <text x="155" y="524" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="24" fill="#000000" font-weight="bold">{{AUTHOR}}</text>
+    <text x="622" y="524" text-anchor="middle" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="24" fill="#000000" font-weight="bold">{{INSTITUTION}}</text>
+    <text x="1082" y="524" text-anchor="end" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="24" fill="#000000" font-weight="bold">{{DATE}}</text>
+  </g>
+
+  <!-- Bottom-left: blue bar + badge -->
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <g id="bottom-left-badge">
+    <rect x="57" y="607" width="139" height="55" fill="none"/>
+    <text x="67" y="628" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+    <text x="67" y="647" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+  </g>
+
+  <!-- Bottom-right: date display -->
+  <g id="date-display">
+    <text x="1092" y="672" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">MAR.</text>
+    <text x="1143" y="667" text-anchor="start" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="64" fill="#000000" font-weight="bold">{{YEAR}}</text>
+  </g>
+</svg>

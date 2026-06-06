@@ -35,11 +35,23 @@
     "page_count": 5,
     "primary_color": "#001529"
   },
+  "常用": {
+    "summary": "Clean blue-accent academic template with full-page photo background, ghost-text watermarks, and parallelogram TOC motif. Suits thesis defense, conference presentations, and research reports.",
+    "canvas_format": "ppt169",
+    "page_count": 11,
+    "primary_color": "#0B88FF"
+  },
   "招商银行": {
     "summary": "交易银行产品介绍、销售收款方案汇报、客户案例拆解、分行培训材料.",
     "canvas_format": "ppt169",
     "page_count": 5,
     "primary_color": "#C8152D"
+  },
+  "蓝色简约": {
+    "summary": "清爽蓝白配色的学术论文答辩模板，以倾斜平行四边形为标志性元素，结合双线蓝边卡片、浅灰英文水印装饰，适合毕业答辩、研究汇报等学术场景。",
+    "canvas_format": "ppt169",
+    "page_count": 9,
+    "primary_color": "#0B88FF"
   },
   "重庆大学": {
     "summary": "Academic defense, research reports, teaching presentations, scholarly exchange.",

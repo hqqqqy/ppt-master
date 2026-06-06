@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="img-clip" clipPathUnits="userSpaceOnUse">
+      <polygon points="99,127 627,127 610,570 82,570"/>
+    </clipPath>
+  </defs>
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <!-- SHARED CHROME -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{PAGE_TITLE}}</text>
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{SECTION_NAME}}</text>
+  <line x1="964" y1="631" x2="1120" y2="631" stroke-width="2.667" stroke="#0B88FF" fill="none"/>
+  <text x="841" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{SECTION_EN}}</text>
+
+  <!-- Left: parallelogram image area (blue fill + clipped image) -->
+  <polygon points="91,139 617,139 597,581 72,581" fill="#0B88FF" stroke="none"/>
+  <image clip-path="url(#img-clip)" href="{{IMAGE}}" x="82" y="127" width="545" height="443" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Right: 2 stacked content blocks -->
+  <!-- Block 1 -->
+  <g id="right-block-1">
+    <text x="740" y="165" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000">{{BLOCK1_TITLE}}</text>
+    <text x="910" y="162" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="32" fill="#0B88FF" font-weight="bold">{{BLOCK1_TAG}}</text>
+    <rect x="663" y="183" width="545" height="171" fill="none"/>
+    <text x="673" y="210" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{BLOCK1_CONTENT}}</text>
+  </g>
+
+  <!-- Block 2 -->
+  <g id="right-block-2">
+    <text x="740" y="407" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="32" fill="#000000">{{BLOCK2_TITLE}}</text>
+    <text x="910" y="404" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="32" fill="#0B88FF" font-weight="bold">{{BLOCK2_TAG}}</text>
+    <rect x="663" y="424" width="545" height="171" fill="none"/>
+    <text x="673" y="451" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{BLOCK2_CONTENT}}</text>
+  </g>
+
+  <!-- Content area placeholder -->
+  <text x="960" y="350" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#BFBFBF">{{CONTENT_AREA}}</text>
+</svg>

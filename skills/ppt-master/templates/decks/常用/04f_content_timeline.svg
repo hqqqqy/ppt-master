@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+  <image href="cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+  <!-- SHARED CHROME -->
+  <line x1="68" y1="51" x2="128" y2="51" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <image href="brand_emblem.png" x="1149" y="46" width="69" height="69" preserveAspectRatio="none"/>
+  <line x1="68" y1="671" x2="128" y2="671" stroke-width="6.667" stroke="#0B88FF" fill="none"/>
+  <text x="67" y="628" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">CASE STUDY</text>
+  <text x="67" y="647" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold">RESEARCH.</text>
+  <text x="71" y="95" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="29.33" fill="#000000" font-weight="bold">{{SECTION_NUM}}</text>
+  <text x="120" y="96" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#000000" font-weight="bold">{{PAGE_TITLE}}</text>
+  <text x="1213" y="638" text-anchor="end" font-family="&quot;碳纤维正中黑简体&quot;, sans-serif" font-size="26.67" fill="#0B88FF" font-weight="bold" font-style="italic" letter-spacing="2.67">{{SECTION_NAME}}</text>
+  <line x1="964" y1="631" x2="1120" y2="631" stroke-width="2.667" stroke="#0B88FF" fill="none"/>
+  <text x="841" y="685" font-family="&quot;Tw Cen MT Condensed Extra Bold&quot;, sans-serif" font-size="48" fill="#F2F2F2" font-style="italic">{{SECTION_EN}}</text>
+
+  <!-- Left side: circular KPI / diagram zone -->
+  <!-- Outer ring -->
+  <circle cx="320" cy="380" r="180" fill="none" stroke="#D9D9D9" stroke-width="2.667"/>
+  <!-- Middle ring -->
+  <circle cx="320" cy="380" r="155" fill="#808080" stroke="none"/>
+  <!-- Inner circle (label) -->
+  <circle cx="320" cy="380" r="130" fill="#000000" stroke="none"/>
+  <text x="320" y="370" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed&quot;, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">{{KPI_LABEL_1}}</text>
+  <text x="320" y="402" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed&quot;, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold">{{KPI_LABEL_2}}</text>
+  <!-- Top connector dot (blue circle) -->
+  <circle cx="320" cy="200" r="68" fill="#0B88FF" stroke="none"/>
+  <text x="320" y="195" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed&quot;, sans-serif" font-size="32" fill="#000000">{{TOP_LABEL_1}}</text>
+  <text x="320" y="227" text-anchor="middle" font-family="&quot;Tw Cen MT Condensed&quot;, sans-serif" font-size="32" fill="#000000">{{TOP_LABEL_2}}</text>
+
+  <!-- Vertical connector line (right side) -->
+  <line x1="557" y1="172" x2="557" y2="542" stroke-width="1.333" stroke="#0B88FF" fill="none"/>
+
+  <!-- 3 right-side items with blue square icons -->
+  <!-- Item 1 -->
+  <rect x="618" y="149" width="47" height="47" fill="#0B88FF" stroke="none"/>
+  <line x1="557" y1="172" x2="618" y2="172" stroke-width="1.333" stroke="#0B88FF" fill="none"/>
+  <text x="689" y="163" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{ITEM1_TITLE}}</text>
+  <rect x="689" y="168" width="567" height="74" fill="none"/>
+  <text x="699" y="196" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{ITEM1_CONTENT}}</text>
+
+  <!-- Item 2 -->
+  <rect x="618" y="335" width="47" height="47" fill="#0B88FF" stroke="none"/>
+  <line x1="557" y1="358" x2="618" y2="358" stroke-width="1.333" stroke="#0B88FF" fill="none"/>
+  <text x="689" y="349" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{ITEM2_TITLE}}</text>
+  <rect x="689" y="354" width="567" height="74" fill="none"/>
+  <text x="699" y="382" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{ITEM2_CONTENT}}</text>
+
+  <!-- Item 3 -->
+  <rect x="618" y="521" width="47" height="47" fill="#0B88FF" stroke="none"/>
+  <line x1="557" y1="542" x2="618" y2="542" stroke-width="1.333" stroke="#0B88FF" fill="none"/>
+  <text x="689" y="535" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="32" fill="#000000" font-weight="bold">{{ITEM3_TITLE}}</text>
+  <rect x="689" y="540" width="567" height="74" fill="none"/>
+  <text x="699" y="568" font-family="&quot;方正宋刻本秀楷简体&quot;, serif" font-size="26.67" fill="#000000">{{ITEM3_CONTENT}}</text>
+
+  <!-- Content area placeholder -->
+  <text x="900" y="460" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#BFBFBF">{{CONTENT_AREA}}</text>
+</svg>
