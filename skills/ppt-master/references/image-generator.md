@@ -116,17 +116,31 @@ Then `read_file` the **single resolved** rendering file and the **single resolve
 
 For each `Acquire Via: ai` row in `design_spec.md §VIII`:
 
-1. **Determine type** — only when `page_role: local` (the image sits as a region block on an SVG page). Match the row's `Purpose` against the `_index.md` auto-selection table (methodology visualization → `framework`; process steps → `flowchart`; SWOT/Eisenhower → `matrix`; PDCA / flywheel → `cycle`; etc.). `Purpose` is authoritative for picking among the 11 internal-composition types. **When `page_role: hero_page`, skip type selection** and describe composition directly using §4.1 primitives (single-subject / portrait / typographic / atmospheric).
-2. **Determine `text_policy`** — Strategist's value wins when set. Otherwise pick `none` or `embedded` based on whether in-image text serves the page. Long body / data / lists stay in SVG.
-3. **Determine `page_role`** — Strategist's value wins when set. Otherwise pick `local` or `hero_page` based on whether the image carries the page or sits inside one.
-4. `read_file references/image-type-templates/<type>.md` (only if not already read — types are commonly reused across images in one deck)
-5. **Assemble the prompt** by combining:
+1. **Analyze the actual layout slot** — inspect the target page plan, template, or current SVG draft before writing the prompt. Record the usable slot in `layout_context` and make the prompt obey it.
+2. **Determine type** — only when `page_role: local` (the image sits as a region block on an SVG page). Match the row's `Purpose` against the `_index.md` auto-selection table (methodology visualization → `framework`; process steps → `flowchart`; SWOT/Eisenhower → `matrix`; PDCA / flywheel → `cycle`; etc.). `Purpose` is authoritative for picking among the 11 internal-composition types. **When `page_role: hero_page`, skip type selection** and describe composition directly using §4.1 primitives (single-subject / portrait / typographic / atmospheric).
+3. **Determine `text_policy`** — Strategist's value wins when set. Otherwise pick `none` or `embedded` based on whether in-image text serves the page. Long body / data / lists stay in SVG.
+4. **Determine `page_role`** — Strategist's value wins when set. Otherwise pick `local` or `hero_page` based on whether the image carries the page or sits inside one.
+5. `read_file references/image-type-templates/<type>.md` (only if not already read — types are commonly reused across images in one deck)
+6. **Assemble the prompt** by combining:
    - The rendering's style paragraph (from Step 2)
    - The palette's proportion + role rules applied to the deck's HEX values (from Step 2)
    - The type's structural layout (from Step 3)
    - The image's specific `Reference` intent (from `design_spec.md §VIII`)
-   - The container sizing guidance from the type file (so the model knows it's painting a local block, not a full canvas)
+   - The `layout_context` sizing and composition constraints (so the model paints for the actual slot, not a generic canvas)
    - The hard rules from §5 below (HEX-not-as-text, simplified figures, text policy)
+
+**Layout context fields**:
+
+| Field | Required | Notes |
+|---|---|---|
+| `page` | yes | Target page number or page id |
+| `slot_px` | yes | Actual displayed image slot, e.g. `520x300`; use the SVG/template dimensions when available |
+| `aspect_ratio` | yes | Must match or consciously approximate `slot_px`; do not pick a generic ratio |
+| `placement` | yes | Full-bleed, left column, right card, top hero band, background, etc. |
+| `overlay_safe_zone` | conditional | Required when SVG text overlays a `hero_page`; name the calm region |
+| `crop_policy` | yes | `no-crop`, `cover-crop`, `contain`, or explicit focal crop behavior |
+
+**Hard rule — prompt after layout**: never write a prompt before the slot is known. If the page is not drafted yet, use the selected template's intended region and state it in `layout_context`.
 
 The assembled prompt is **one cohesive paragraph**, not a bulleted list of tags. See §4 for the assembly template.
 
@@ -145,7 +159,7 @@ Every assembled prompt follows this paragraph structure. **Write prose, not tag 
 [Palette behavior — apply the chosen palette's proportion + role rules to the deck's HEX values, e.g. "primary #1E3A5F dominates as the main shape, secondary #F8F9FA provides 60% breathing space, accent #D4AF37 appears in one or two emphasis points only"].
 [Type-specific composition — from the chosen type file, e.g. "central hub node with four radiating satellite nodes connected by clean lines"].
 [Image-specific subject — translated from the row's Reference intent into concrete visual nouns].
-[Container note — "composed as a {W}x{H}px image for {page_role} use"; add composition cues only when the page actually needs them. SVG-overlay-reservation cues ("leave the lower band calm — SVG title overlays it", "keep the right third calmer for SVG text") are valid **only** when `page_role: hero_page` (SVG sits on top of the image). For `page_role: local`, the image sits inside a region block and the SVG layer never overlays its interior — never reserve overlay space in a local prompt].
+[Layout note — "composed for a {slot_px} slot placed as {placement}, exported at {aspect_ratio}; {crop_policy}; focal subject stays inside the safe area." Add composition cues only when the page actually needs them. SVG-overlay-reservation cues ("leave the lower band calm — SVG title overlays it", "keep the right third calmer for SVG text") are valid **only** when `page_role: hero_page` (SVG sits on top of the image). For `page_role: local`, the image sits inside a region block and the SVG layer never overlays its interior — never reserve overlay space in a local prompt].
 [Hard rules — see §5].
 ```
 
@@ -359,6 +373,13 @@ Write `project/images/image_prompts.json` with this shape:
       "purpose": "Cover background (Slide 01)",
       "page_role": "hero_page",
       "text_policy": "none",
+      "layout_context": {
+        "page": "P01",
+        "slot_px": "1280x720",
+        "placement": "full-bleed hero background",
+        "overlay_safe_zone": "center 60% calm for SVG title",
+        "crop_policy": "cover-crop with no critical detail near edges"
+      },
       "aspect_ratio": "16:9",
       "image_size": "2K",
       "prompt": "{fully assembled paragraph per §4 — use §4.1 Primitive D for atmospheric cover}",
@@ -371,6 +392,12 @@ Write `project/images/image_prompts.json` with this shape:
       "type": "framework",
       "page_role": "local",
       "text_policy": "none",
+      "layout_context": {
+        "page": "P05",
+        "slot_px": "520x390",
+        "placement": "right content card",
+        "crop_policy": "contain; no important detail outside the 10% inner margin"
+      },
       "aspect_ratio": "4:3",
       "image_size": "1K",
       "prompt": "{fully assembled paragraph per §4}",
@@ -391,11 +418,14 @@ Write `project/images/image_prompts.json` with this shape:
 | `items[].type` | conditional | Step 3 per-image (only when `page_role: local`) | One of 11 internal-composition types: `infographic`, `flowchart`, `framework`, `matrix`, `cycle`, `funnel`, `pyramid`, `comparison`, `timeline`, `map`, `scene`. **Omit `type` entirely when `page_role: hero_page`** — the composition comes from §4.1 primitives written directly into the prompt, not from a type file. |
 | `items[].page_role` | yes | Step 3 per-image | `local` (default — region block on SVG page) or `hero_page` (image is page's main voice; SVG overlay minimal or empty) |
 | `items[].text_policy` | yes | Step 3 per-image | `none` (image carries no text — explicit visual rule) or `embedded` (image contains decorative lettering, designed title, hand-lettered keywords, or stable visual identifiers like axis labels / subplot letters / unit symbols). AI judges per image; no global default bias — see §5.3. |
+| `items[].layout_context` | yes | Step 3 layout analysis | Actual page slot: `page`, `slot_px`, `placement`, `crop_policy`; add `overlay_safe_zone` when SVG text overlays a `hero_page`. |
 | `items[].aspect_ratio` | yes | Container sizing | Passed to `image_gen.py --aspect_ratio` |
 | `items[].prompt` | yes | §4 assembly | The full assembled paragraph |
 | `items[].image_size` | no | Container sizing | `512px` / `1K` / `2K` / `4K` |
 | `items[].alt_text` | no | Accessibility | Short caption |
 | `items[].status` | yes | CLI manages | `Pending` initially; CLI updates to `Generated` / `Failed` / `Needs-Manual` |
+| `items[].attempts` | no | CLI manages | Saved generation attempts under `images/_generated_attempts/`; do not hand-edit except to audit |
+| `items[].selected_attempt` | no | CLI manages | Attempt number copied to `images/<filename>` for downstream SVG use |
 
 > **Back-compat for legacy `type` values**: existing manifests using `background` / `hero` / `portrait` / `typography` (the four removed pseudo-types) remain readable. Read them as: `background` → `page_role: hero_page` + no type; `hero` → `page_role: hero_page` + no type (use §4.1 Primitive A in prompt); `portrait` → `page_role: local` + no type (use §4.1 Primitive B); `typography` → `page_role: hero_page` + `text_policy: embedded` + no type (use §4.1 Primitive C). New manifests should follow the rule above (omit `type` when `page_role: hero_page`).
 >
@@ -438,6 +468,10 @@ python3 scripts/image_gen.py \
 ```
 
 The CLI iterates `items[]` with adaptive concurrency, writes `status` back per item, and is **idempotent**: re-running only re-processes entries whose status is `Pending` or `Failed`.
+
+**Saved attempts**: each successful manifest generation writes a preserved file under `project/images/_generated_attempts/<stem>_attempt_NN.<ext>`, then copies the selected/latest result to `project/images/<filename>`. Do not delete `_generated_attempts/` during active review.
+
+**Attempt limit**: each `items[]` row can have at most 3 saved visual attempts. To re-roll an unsatisfactory image, set only that item's `status` back to `Pending` and adjust the prompt; `image_gen.py --manifest` saves the next attempt. When 3 attempts already exist, the CLI marks the item `Needs-Manual` instead of generating attempt 4.
 
 **Parameters**:
 
@@ -552,7 +586,7 @@ When the Resource List row has no `Reference`, infer a reasonable image from `Pu
 
 ### When Images Are Unsatisfactory
 
-Diagnose the failure category, adjust the **one specific dimension** responsible, do not rewrite the whole prompt.
+Diagnose the failure category, adjust the **one specific dimension** responsible, do not rewrite the whole prompt. Maximum: 3 saved attempts per image row.
 
 | Symptom | Most likely cause | Adjustment |
 |---|---|---|
@@ -567,9 +601,11 @@ Diagnose the failure category, adjust the **one specific dimension** responsible
 
 **Variant workflow**:
 
-1. Set the unsatisfactory item's `status` back to `Pending` and update its `prompt` in place
-2. Re-run `image_gen.py --manifest` — only that item is re-processed
-3. To try multiple stylistic approaches, append additional items with distinct filenames (e.g. `cover_bg_v2.png`) rather than overwriting
+1. Inspect the output against `layout_context`: slot fit, focal position, crop behavior, overlay safe zone, deck palette, and text policy.
+2. Set the unsatisfactory item's `status` back to `Pending` and update its `prompt` in place.
+3. Re-run `image_gen.py --manifest` — only that item is re-processed, and the new file is saved as the next `_generated_attempts/*_attempt_NN.*` artifact.
+4. Stop after 3 saved attempts. Keep all attempts; the current selected/latest attempt is copied to `images/<filename>` for downstream SVG use.
+5. To try fundamentally different art directions beyond the 3-attempt cap, create a new resource-list row with a distinct filename and explicit purpose.
 
 ---
 

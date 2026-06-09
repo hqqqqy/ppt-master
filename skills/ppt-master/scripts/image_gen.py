@@ -43,11 +43,12 @@ Usage:
   python3 image_gen.py --list-backends
 """
 
+import argparse
 import concurrent.futures
 import json
 import os
+import shutil
 import sys
-import argparse
 import tempfile
 import threading
 import time
@@ -341,6 +342,8 @@ def _resolve_backend() -> tuple[object, str]:
 
 
 DEFAULT_MANIFEST_CONCURRENCY = 3
+MAX_SAVED_ATTEMPTS = 3
+ATTEMPTS_DIR_NAME = "_generated_attempts"
 
 STATUS_PENDING = "Pending"
 STATUS_GENERATED = "Generated"
@@ -425,6 +428,47 @@ def save_manifest(path: str, data: dict) -> None:
         raise
 
 
+def _saved_attempts(item: dict) -> list[dict]:
+    """Return the list of saved visual attempts for a manifest item."""
+    attempts = item.get("attempts")
+    return attempts if isinstance(attempts, list) else []
+
+
+def _relative_to_output(path: str | Path, output_dir: str | Path) -> str:
+    """Return a compact path relative to the output directory when possible."""
+    path_obj = Path(path).resolve()
+    output_obj = Path(output_dir).resolve()
+    try:
+        return path_obj.relative_to(output_obj).as_posix()
+    except ValueError:
+        return path_obj.as_posix()
+
+
+def _attempt_stem(filename: str, attempt_number: int) -> str:
+    """Build the archival attempt filename stem for one generation attempt."""
+    stem = Path(filename).stem
+    return f"{stem}_attempt_{attempt_number:02d}"
+
+
+def _copy_to_contract_path(saved_path: str, output_dir: str, filename: str) -> str:
+    """Copy the saved attempt image to the resource-list contract path."""
+    from image_backends.backend_common import save_image_bytes
+
+    source = Path(saved_path)
+    target = Path(output_dir) / filename
+    target.parent.mkdir(parents=True, exist_ok=True)
+
+    if source.resolve() == target.resolve():
+        return str(target)
+
+    if source.suffix.lower() == target.suffix.lower():
+        shutil.copyfile(source, target)
+        print(f"  Contract copy: {target}")
+        return str(target)
+
+    return save_image_bytes(source.read_bytes(), str(target))
+
+
 def _run_manifest(manifest: dict, manifest_path: str, backend_module, *,
                   initial_concurrency: int,
                   image_size: str,
@@ -447,9 +491,29 @@ def _run_manifest(manifest: dict, manifest_path: str, backend_module, *,
     from image_backends.backend_common import is_rate_limit_error
 
     items = manifest["items"]
-    pending_idx = [
-        i for i, it in enumerate(items) if it["status"] in RETRYABLE_STATUSES
-    ]
+    pending_idx = []
+    capped_items = []
+    for i, item in enumerate(items):
+        if item["status"] not in RETRYABLE_STATUSES:
+            continue
+        if len(_saved_attempts(item)) >= MAX_SAVED_ATTEMPTS:
+            item["status"] = STATUS_NEEDS_MANUAL
+            item["last_error"] = (
+                f"Maximum saved generation attempts reached "
+                f"({MAX_SAVED_ATTEMPTS})."
+            )
+            capped_items.append(item["filename"])
+            continue
+        pending_idx.append(i)
+
+    if capped_items:
+        save_manifest(manifest_path, manifest)
+        for filename in capped_items:
+            print(
+                f"  [MAX]  {filename} — reached "
+                f"{MAX_SAVED_ATTEMPTS} saved attempts; marked Needs-Manual"
+            )
+
     total = len(pending_idx)
     skipped = len(items) - total
 
@@ -473,18 +537,27 @@ def _run_manifest(manifest: dict, manifest_path: str, backend_module, *,
 
     def _one(idx: int):
         item = items[idx]
+        attempt_number = len(_saved_attempts(item)) + 1
+        attempt_dir = Path(output_dir) / ATTEMPTS_DIR_NAME
+        attempt_stem = _attempt_stem(item["filename"], attempt_number)
+        saved_path = None
         try:
             saved_path = backend_module.generate(
                 prompt=item["prompt"],
                 aspect_ratio=item["aspect_ratio"],
                 image_size=item.get("image_size", image_size),
-                output_dir=output_dir,
-                filename=Path(item["filename"]).stem,
+                output_dir=str(attempt_dir),
+                filename=attempt_stem,
                 model=item.get("model", model),
             )
-            return idx, saved_path, None
+            contract_path = _copy_to_contract_path(
+                saved_path,
+                output_dir,
+                item["filename"],
+            )
+            return idx, saved_path, contract_path, attempt_number, None
         except Exception as exc:  # noqa: BLE001 — backend raises arbitrary types
-            return idx, None, exc
+            return idx, saved_path, None, attempt_number, exc
 
     while queue:
         batch_size = min(current, len(queue))
@@ -500,19 +573,59 @@ def _run_manifest(manifest: dict, manifest_path: str, backend_module, *,
         with concurrent.futures.ThreadPoolExecutor(max_workers=batch_size) as ex:
             futures = [ex.submit(_one, i) for i in batch_idx]
             for fut in concurrent.futures.as_completed(futures):
-                idx, saved_path, exc = fut.result()
+                idx, saved_path, contract_path, attempt_number, exc = fut.result()
                 item = items[idx]
                 with state_lock:
                     if exc is None:
+                        attempts = item.setdefault("attempts", [])
+                        for attempt in attempts:
+                            if isinstance(attempt, dict):
+                                attempt["selected"] = False
+                        attempts.append({
+                            "attempt": attempt_number,
+                            "file": _relative_to_output(saved_path, output_dir),
+                            "selected": True,
+                            "created_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+                        })
+                        item["selected_attempt"] = attempt_number
+                        item["last_attempt_file"] = _relative_to_output(
+                            saved_path,
+                            output_dir,
+                        )
+                        item["selected_file"] = _relative_to_output(
+                            contract_path,
+                            output_dir,
+                        )
                         item["status"] = STATUS_GENERATED
                         item.pop("last_error", None)
                         ok_count += 1
-                        print(f"  [OK]   {item['filename']}")
+                        print(
+                            f"  [OK]   {item['filename']} "
+                            f"(attempt {attempt_number}/{MAX_SAVED_ATTEMPTS})"
+                        )
                     elif is_rate_limit_error(exc):
                         rate_limited = True
                         queue.append(idx)
                         print(f"  [RATE] {item['filename']} — requeued")
                     else:
+                        if saved_path:
+                            attempts = item.setdefault("attempts", [])
+                            attempts.append({
+                                "attempt": attempt_number,
+                                "file": _relative_to_output(
+                                    saved_path,
+                                    output_dir,
+                                ),
+                                "selected": False,
+                                "created_at": time.strftime(
+                                    "%Y-%m-%dT%H:%M:%S%z"
+                                ),
+                                "error": str(exc)[:200],
+                            })
+                            item["last_attempt_file"] = _relative_to_output(
+                                saved_path,
+                                output_dir,
+                            )
                         item["status"] = STATUS_FAILED
                         item["last_error"] = str(exc)[:500]
                         fail_count += 1
@@ -598,6 +711,13 @@ def render_manifest_md(manifest: dict) -> str:
                 lines.append(f"| {label} | {value} |")
         if item.get("last_error"):
             lines.append(f"| Last error | {item['last_error']} |")
+        attempts = _saved_attempts(item)
+        if attempts:
+            lines.append(
+                f"| Saved attempts | {len(attempts)}/{MAX_SAVED_ATTEMPTS} |"
+            )
+        if item.get("last_attempt_file"):
+            lines.append(f"| Last attempt file | {item['last_attempt_file']} |")
         lines.append("")
         lines.append("**Prompt**:")
         lines.append("")

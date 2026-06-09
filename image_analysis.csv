@@ -1,0 +1,25 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,RatioSource,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category,ImageArea_SxS,TextArea_SxS
+1,comment_depth.png,2400,1800,1.33,1.33,pixel,1,,bitmap,True,True,72.9,Standard landscape,800x600,340x600
+2,comment_depth_zh.png,2400,1800,1.33,1.33,pixel,1,,bitmap,True,True,69.1,Standard landscape,800x600,340x600
+3,comment_quantity.png,3600,1800,2.00,2.00,pixel,1,,bitmap,True,True,97.2,Wide landscape,812x406,328x600
+4,comment_quantity_zh.png,3600,1800,2.00,2.00,pixel,1,,bitmap,True,True,86.2,Wide landscape,812x406,328x600
+5,engagement_rates.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,94.8,Wide landscape,812x487,328x600
+6,engagement_rates_zh.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,87.5,Wide landscape,812x487,328x600
+7,topic_concentration_k20.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,84.5,Wide landscape,812x487,328x600
+8,topic_concentration_k20_zh.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,80.3,Wide landscape,812x487,328x600
+9,topic_concentration_k30.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,92.2,Wide landscape,812x487,328x600
+10,topic_concentration_k30_zh.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,86.4,Wide landscape,812x487,328x600
+11,topic_concentration_k50.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,75.5,Wide landscape,812x487,328x600
+12,topic_concentration_k50_zh.png,3000,1800,1.67,1.67,pixel,1,,bitmap,True,True,70.2,Wide landscape,812x487,328x600
+13,topic_k30_entropy.png,2400,1800,1.33,1.33,pixel,1,,bitmap,True,True,77.8,Standard landscape,800x600,340x600
+14,topic_k30_entropy_zh.png,2400,1800,1.33,1.33,pixel,1,,bitmap,True,True,72.6,Standard landscape,800x600,340x600
+15,topic_k30_hhi.png,2400,1800,1.33,1.33,pixel,1,,bitmap,True,True,58.6,Standard landscape,800x600,340x600
+16,topic_k30_hhi_zh.png,2400,1800,1.33,1.33,pixel,1,,bitmap,True,True,57.4,Standard landscape,800x600,340x600
+17,图片 1.png,2480,1422,1.74,1.74,pixel,1,,bitmap,True,True,722.3,Wide landscape,812x466,328x600
+18,图片 17.png,2894,1366,2.12,2.12,pixel,1,,bitmap,True,True,1581.7,Ultra-wide,812x383,328x600
+19,图片 18.png,2900,1368,2.12,2.12,pixel,1,,bitmap,True,True,1763.9,Ultra-wide,812x383,328x600
+20,图片 19.png,2914,1386,2.10,2.10,pixel,1,,bitmap,True,True,2130.2,Ultra-wide,812x386,328x600
+21,图片 2.png,2446,1426,1.72,1.72,pixel,1,,bitmap,True,True,888.1,Wide landscape,812x473,328x600
+22,图片 20.png,2918,1388,2.10,2.10,pixel,1,,bitmap,True,True,2368.1,Ultra-wide,812x386,328x600
+23,图片 3.png,2484,1386,1.79,1.79,pixel,1,,bitmap,True,True,1273.5,Wide landscape,812x453,328x600
+24,图片 4.png,2472,1382,1.79,1.79,pixel,1,,bitmap,True,True,1472.0,Wide landscape,812x454,328x600
